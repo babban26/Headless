@@ -45,7 +45,7 @@ namespace IET.TV.Portal
 
             st.Chrome_Setup(driver, log);
 
-          //  driver = new ChromeDriver(@"D:\All-Projects\Headless.Testing\IET.TV.Portal\bin\Debug\Driver");
+            driver = new ChromeDriver(@"D:\All-Projects\Headless.Testing\IET.TV.Portal\bin\Debug\Driver\chromedriver.exe");
          //   driver.Manage().Window.Maximize();
          //   iWait = new OpenQA.Selenium.Support.UI.WebDriverWait(driver, TimeSpan.FromSeconds(60.00));
          //   driver.Navigate().GoToUrl("http://192.168.2.74/iettvportal/");
@@ -159,75 +159,6 @@ namespace IET.TV.Portal
 
         #endregion
 
-        [Test]
-        public void Video_Search()
-        {
-            Console.WriteLine("Done");
-
-            iWait.Until(ExpectedConditions.InvisibilityOfElementLocated(By.Id("overlaySpinner")));
-
-            driver.FindElement(By.Id("searchtextbox")).SendKeys("video");
-
-            Console.WriteLine("Done");
-        }
-
-        [Test]
-        public void Login()
-        {
-
-            #region Credential
-
-            string username = "jahnavi.ette@northgate-is.com";
-            string password = "R@ve54321";
-            string userFullName = "jahnavi ette";
-
-            #endregion
-
-            iWait.Until(ExpectedConditions.InvisibilityOfElementLocated(By.Id("overlaySpinner")));
-
-            Console.WriteLine("Home page is loaded.");
-
-            // Navigating to Login page
-            driver.FindElement(By.Id("login")).FindElement(By.TagName("a")).Click();
-            iWait.Until(ExpectedConditions.InvisibilityOfElementLocated(By.ClassName("overlay")));
-            iWait.Until(ExpectedConditions.InvisibilityOfElementLocated(By.Id("overlaySpinner")));
-
-            Console.WriteLine("Navigated to Login page.");
-
-            // login operation
-            iWait.Until(ExpectedConditions.ElementToBeClickable(By.Id("UserName")));
-            driver.FindElement(By.Id("UserName")).SendKeys(username);
-            driver.FindElement(By.Id("Password")).SendKeys(password);
-            driver.FindElement(By.ClassName("login-btn")).Click();
-
-            Console.WriteLine("User is logged in.");
-
-            // waiting till welcome message displayed
-            iWait.Until(ExpectedConditions.ElementIsVisible(By.Id("loginWelcomeMessage")));
-            string welcomeMesssage = driver.FindElement(By.Id("message_head")).Text.Trim();
-
-            // Verifying the user's email id on welcome message
-            Assert.AreEqual(true, welcomeMesssage.Contains(username), "User's email ID is not displayed on welcome message");
-
-            IWebElement btnOK = driver.FindElement(By.Id("loginWelcomeMessage"))
-                                      .FindElement(By.ClassName("modal-footer")).FindElement(By.ClassName("btn-success"));
-
-            btnOK.Click();
-
-            iWait.Until(ExpectedConditions.InvisibilityOfElementLocated(By.Id("loginWelcomeMessage")));
-
-            string actualFullUsername = driver.FindElement(By.Id("message")).Text.Trim();
-            actualFullUsername = actualFullUsername.Replace("Welcome:", "").Trim();
-
-            Assert.AreEqual(userFullName, actualFullUsername, "Username is not displayed after login");
-
-            //Logout
-            driver.FindElement(By.Id("accountLi")).Click();
-            Thread.Sleep(500);
-            driver.FindElement(By.Id("anchorLogout")).Click();
-                
-            Console.WriteLine("User is logged out.");
-        }
 
         [Test]
         public void PhantomTest()
