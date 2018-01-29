@@ -1,0 +1,525 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<!--
+  
+  ################################## Please look at here #################################
+  
+  Instruction to Add New Content in XML File. 
+  
+  1. Use Camel Case format while writing Node name.
+  2. Use Camel Case Format while writing value of any attribute.
+  
+-->
+
+
+<properties>
+
+  <Module name="BottomBar">
+    <Element key="overLaySpinner" type="ClassName">overlaySpinnerImage</Element>
+    <!-- This Key is created for 'Ajax Loader' -->
+    <Element key="backToTop" type="id">footerback-to-top</Element>
+    <!-- This key is created for 'Back to top' element on page -->
+    <Element key="myCommunityLinks" type="ClassName">footer_new</Element>
+    <!-- This key is created for 'My Community' footer section -->
+    <Element key="footerFourSections" type="CssSelector">.row.slideToggle.footerLinksCont.main-container.content-div-height</Element>
+    <!-- This key is created for 'bottom four' sections -->
+    <Element key="bottomFooter">.main-container.footer-div-color</Element>
+    <!-- This key is created for 'cookies, privacy statement' section -->
+    <Element key="copyRight">.main-container.footer-div-color</Element>
+    <!-- This key is created for 'CopyRight' section -->
+  </Module>
+
+  <Module name="ForgottenPassword">
+    <Element key="overLaySpinner" type="ClassName">overlaySpinnerImage</Element>
+    <!-- This Key is created for 'Ajax Loader' -->
+    <Element key="login" type="id">login</Element>
+    <!-- This key is created for 'Please Login' linktext -->
+    <Element key="checkBox" type="ClassName">checkbox</Element>
+    <!-- This key is created for 'Checkbox' element -->
+    <Element key="userName" type="id">Username</Element>
+    <!-- This key is created for 'Username' element -->
+    <Element key="aftCancelUsername" type="id">UserName</Element>
+    <!-- This key is created for 'Username' textbox after cancel click-->
+    <Element key="Cancel" type="CssSelector">.btn.btn-default.dd_btn</Element>
+    <!-- This key is created for 'Cancel' button -->
+    <Element key="Submit" type="id">Submit</Element>
+    <!-- This key is created for 'Submit' button -->
+    <Element key="btnYes" type="id">yesButtonId</Element>
+    <!-- This key is created for 'Yes' button -->
+    <Element key="txtEmailAddress" type="id">emailaddress</Element>
+    <!-- This key is created for 'Email Address' textbox -->
+    <Element key="txtSurname" type="id">surname</Element>
+    <!-- This key is created for 'Surname' textbox -->
+    <Element key="txtForgotPass" type="id">forgotPassword</Element>
+    <!-- This key is created for 'Forgot Password' textbox -->
+    <Element key="chkForgotUsername" type="id">forgotUsername</Element>
+    <!-- This key is created for 'Forgot Username' checkbox -->
+  </Module>
+
+  <Module name="HomePageTopHeader">
+    <Element key="ETJobsIETWebList" type="CssSelector">ul.OtheeIETWebList > li#Li2 > a</Element>
+    <!--This key represents 'E&T Jobs' Link under OtherIETWebSites-->
+    <Element key="TheIETWebList" type="CssSelector">ul.OtheeIETWebList > li#Li1 > a</Element>
+    <!--This key represents 'The IET' Link under OtherIETWebSites-->
+    <Element key="IETConnectIETWebList" type="CssSelector">ul.OtheeIETWebList > li#Li3 > a</Element>
+    <!--This key represents 'IET Connect ' Link under OtherIETWebSites-->
+    <Element key="DigitalLibraryIETWebList" type="CssSelector">ul.OtheeIETWebList > li#Li4 > a</Element>
+    <!--This key represents 'IET Digital Library ' Link under OtherIETWebSites-->
+    <Element key="ElectricalIETWebList" type="CssSelector">ul.OtheeIETWebList > li#Li5 > a</Element>
+    <!--This key represents 'IET Electrical  ' Link under OtherIETWebSites-->
+    <Element key="FaradayIETWebList" type="CssSelector">ul.OtheeIETWebList > li#Li6 > a</Element>
+    <!--This key represents 'IET Faraday' Link under OtherIETWebSites-->
+    <Element key="VenuesIETWebList" type="CssSelector">ul.OtheeIETWebList > li#Li7 > a</Element>
+    <!--This key represents 'IET Venues ' Link under OtherIETWebSites-->
+    <Element key="MagazineIETWebList" type="CssSelector">ul.OtheeIETWebList > li#Reports > a</Element>
+    <!--This key represents 'E&T Magazine' Link under OtherIETWebSites-->
+    <Element key="LoginLink" type="LinkText">Please Log in</Element>
+    <!--This key represents Login Link  -->
+    <Element key="ContactLink" type="LinkText">Contact</Element>
+    <!--This key represents Contact Link  -->
+    <Element key="LogoImage" type="CssSelector">div.bc-white > div.logo-section > span.helper > a.homeRedirect >img</Element>
+    <!--This key represents logo image -->
+    <Element key="Logolink" type="CssSelector">div.bc-white > div.logo-section > span.helper > a.homeRedirect </Element>
+    <!--This key generates logoLink Status -->
+    <Element key="AdvertiseBannerFrame" type="id">oas_frame_Top</Element>
+    <!--This key represents AdvertiseBannerFrame -->
+    <Element key="AdvertiseBannerImage" type="CssSelector">body > a</Element>
+    <!--This key represents AdvertiseBannerImage -->
+  </Module>
+
+  <Module name="NonIETMemberRegistration">
+    <Element key="LoginLink" type="LinkText">Please Log in</Element>
+    <!--This key represents Login Link  -->
+    <Element key="RegistrationLink" type="LinkText">Not registered with The IET? Register here</Element>
+    <!--Link to register with IET -->
+    <Element key="NonMemberButton" type="id">no-member-btn</Element>
+    <!--'NO' button for registration of NON IET member -->
+    <Element key="Title" type="id">Title</Element>
+    <!--This key represents 'Title' field -->
+    <Element key="Forenames" type="id">Forenames</Element>
+    <!--This key represents 'Forenames' field -->
+    <Element key="Surname" type="id">Surname</Element>
+    <!--This key represents 'Surname' field -->
+    <Element key="EmailAddress" type="id">EmailAddress</Element>
+    <!--This key represents 'Title' field -->
+    <Element key="ConfirmEmailAddress" type="id">ConfirmEmailAddress</Element>
+    <!--This key represents 'EmailAddress' fLogOutLinkield -->
+    <Element key="Username" type="id">Username</Element>
+    <!--This key represents 'Username' field -->
+    <Element key="Password" type="id">Password</Element>
+    <!--This key represents 'Password' field -->
+    <Element key="ConfirmPassword" type="id">ConfirmPassword</Element>
+    <!--This key represents 'ConfirmPassword' field -->
+    <Element key="Country" type="id">Country</Element>
+    <!--This key represents 'Country' field -->
+    <Element key="ContinueButton" type="id">isNonIetContinue</Element>
+    <!--This key represents 'ContinueButton' -->
+    <Element key="BannerMessage" type="id">overlayId</Element>
+    <!--This key represents 'BannerMessage' -->
+    <Element key="BannerMessageOkButton" type="id">okButtonId</Element>
+    <!--This key represents 'BannerMessageOkButton' -->
+    <Element key="PleaseWaitLoader" type="CssSelector">div > h3</Element>
+    <!--This key represents 'PleaseWaitLoader' -->
+    <Element key="UserName" type="id">UserName</Element>
+    <!--This key represents 'UserName' field on login page -->
+    <Element key="Password" type="id">Password</Element>
+    <!--This key represents 'Password' field on login page-->
+    <Element key="LoginButton" type="ClassName">login-btn</Element>
+    <!--This key represents 'LoginButton'-->
+    <Element key="AcceptButton" type="ClassName">btn_accept</Element>
+    <!--This key represents 'AcceptButton' field on Terms and condition -->
+    <!--Need to see-->
+    <Element key="button.ok_btn_size" type="CssSelector">div.modal-content > div.modal-footer > div > button.btn.btn1.btn-success.ok_btn_size</Element>
+    <!-- This key represents 'OK' button on Popup Window -->
+    <Element key="Message" type="id">message</Element>
+    <Element key="MyIETDropDown" type="id">accountLi</Element>
+    <!--This key represents 'MyIETDropDown' field on login page-->
+    <Element key="LogoutLink" type="id">anchorLogout</Element>
+    <Element key="overlaySpinnerImage" type="ClassName">overlaySpinnerImage</Element>
+    <!--This key represent  spinner loader -->
+    <Element key="CheckUserButton" type="id">IetNonUserChk</Element>
+    <!--This key represent  'CheckUserButton' on registration page -->
+  </Module>
+
+  <Module name ="IETMemberRegistration">
+    <Element key="NotRegistered" type="LinkText">Not registered with The IET? Register here</Element>
+    <!--This key represents Not registered with The IET  -->
+    <Element key="Day" type="id">Day</Element>
+    <!--This key represents Day -->
+    <Element key="DayCSS" type="CssSelector">ul.DAY > li</Element>
+    <!--This key represents 'DayCSS' -->
+    <Element key="Month" type="id">Month</Element>
+    <!--This key represents Month -->
+    <Element key="MonthCSS" type="CssSelector">ul.MONTH > li</Element>
+    <!--This key represents 'DayCSS' -->
+    <Element key="Year" type="id">year</Element>
+    <!--This key represents Year -->
+    <Element key="YearCSS" type="CssSelector">ul.YEAR > li</Element>
+    <!--This key represents 'YearCSS' -->
+    <Element key="IEtSurname" type="id">IEtSurname</Element>
+    <!--This key represents 'IEtSurname' field -->
+    <Element key="BtnYes" type="id">yes-member-btn</Element>
+    <!--This key represents 'BtnYes'  -->
+    <Element key="FinalMember" type="id">FinalContinueMember</Element>
+    <!--This key represents 'FinalMember'  -->
+    <Element key="SuccessMsg" type="id">Sucess_Message</Element>
+    <!--This key represents 'SuccessMsg'  -->
+    <Element key="MembershipNumber" type="id">MembershipNumber</Element>
+    <!--This key represents 'MembershipNumber'  -->
+    <Element key="Check" type="id">Check</Element>
+    <!--This key represents 'Check'  -->
+    <Element key="Warningmsg" type="ClassName">warningmsg</Element>
+    <!--This key represent  IEtUserName -->
+    <Element key="IEtUserName" type="id">IEtUserName</Element>
+    <!--This key represents 'IEtUserName'  -->
+    <Element key="IEtPassword" type="id">IEtPassword</Element>
+    <!--This key represents 'IEtPassword'  -->
+    <Element key="IEtConfirmPassword" type="id">IEtConfirmPassword</Element>
+    <!--This key represents 'IEtConfirmPassword'  -->
+    <Element key="IEtEmailAddrees" type="id">IEtEmailAddrees</Element>
+    <!--This key represents 'IEtEmailAddrees'  -->
+    <Element key="ConfirmEmail" type="id">ConfirmEmail</Element>
+    <!--This key represents 'ConfirmEmail'  -->
+    <Element key="IetMemberContinue" type="id">IetMemberContinue</Element>
+    <!--This key represents 'IetMemberContinue'  -->
+  </Module>
+
+  <Module name ="VideoLandingPage">
+    <Element key="Comment" type="id">comment</Element>
+    <!--This key represents 'comment' for Video Landing Page -->
+    <Element key="SubmitButton" type="id">commentsubmit</Element>
+    <!--This key represents Submit Button-->
+    <Element key="InfoMessage" type="id">InfoMessageId</Element>
+    <!--This key represents Information Message-->
+    <Element key="InfoMsg" type="ClassName">infomsg</Element>
+    <!-- This key represents 'InfoMesg' -->
+    <Element key="SearchResultRecord" type="ClassName">searchresultrecord</Element>
+    <!-- This key represents 'searchresultrecord' -->
+    <Element key="SearchTB" type="id">searchtextbox</Element>
+    <!--This key represents Search Text Box-->
+    <Element key="SearchIcon" type="id">searchicon</Element>
+    <!--This key represents Search Icon-->
+    <Element key="SearchResult" type="id">SearchResult</Element>
+    <!--This key represents SearchResult-->
+    <Element key="SearchResultDetails" type="CssSelector">div.video-description-clear-both > span > a</Element>
+    <!-- This key is created for Search Result Details -->
+    <Element key="SpanResult" type="CssSelector">div > span#result > p</Element>
+    <!-- This key is created for span result -->
+    <Element key="SearchResultLink" type="CssSelector">div#SearchResult > div.search_result_videos > div.video-description-clear-both > span > a</Element>
+    <!-- This key is created for Search Result Link -->
+    <Element key="PlayButton" type="id">playBtn</Element>
+    <!--This key represents Play Button-->
+  </Module>
+
+  <Module name ="BuyChannelVerification">
+    <Element key="PurchaseChannel" type="ClassName">header-purchase</Element>
+    <!-- This key represents Purchase channel access -->
+    <Element key="ChannelWidget" type="CssSelector">div.channel-widget-border > div.channel-widget-header</Element>
+    <!-- This key is created for ChannelWidget -->
+    <Element key="BuySubscription" type="id">BuySubscription</Element>
+    <!--This key represents BuySubscription-->
+    <Element key="AcceptButtonCss" type="CssSelector">div.text-center > button.btn.ok_btn_size</Element>
+    <!-- This key is created for AcceptButtonCss -->
+    <Element key="PurchaseDiv" type="ClassName">divPurchaseChannels</Element>
+    <!-- This key represents PurchaseDiv -->
+    <Element key="SpanTotal" type="id">spnTotal</Element>
+    <!--This key represents SpanTotal-->
+    <Element key="DivSubscriptionMsg" type="id">divSubscription_message</Element>
+    <!--This key represents DivSubscriptionMsg-->
+    <Element key="BtrRedirectMembershipPage" type="id">btnredirectMembershipPage</Element>
+    <!--This key represents BtrRedirectMembershipPage-->
+    <Element key="BtnCheckOut" type="id">btnCheckout</Element>
+    <!--This key represents BtnCheckOut-->
+    <Element key="BtnCheckOutClass" type="ClassName">video_modal_btn_size</Element>
+    <!--This key represents BtnCheckOut Class-->
+    <Element key="ChannelWidContainer" type="ClassName">channel-widget-container</Element>
+    <!-- This key represents ChannelWidContainer -->
+    <Element key="ChannelBTN" type="id">ChannelBlock0btn1</Element>
+    <!--This key represents ChannelBTN-->
+    <Element key="CheckoutBTN" type="ClassName">btn-checkout</Element>
+    <!--This key represents CheckoutBTN-->
+
+    <!--This keys represents card details-->
+    <Element key="CardNumber" type="Name">nbx_card_number</Element>
+    <Element key="NbxCV2" type="Name">nbx_CV2</Element>
+    <Element key="NbxIssueNumber" type="Name">nbx_issue_number</Element>
+    <Element key="NbxMonthStart" type="Name">nbx_month_start</Element>
+    <Element key="NbxYearStart" type="Name">nbx_year_start</Element>
+    <Element key="Expiry1" type="Name">nbx_expiry1</Element>
+    <Element key="expiry2" type="Name">nbx_expiry2</Element>
+    <Element key="Email" type="Name">nbx_email</Element>
+    <Element key="Houseno" type="Name">nbx_houseno</Element>
+
+  </Module>
+
+  <Module name ="BuyVideoVerification">
+    <Element key="SearchResult" type="id">SearchResult</Element>
+    <Element key="AddressTable" type="id">AddressTable</Element>
+    <Element key="AddNewBTN" type="id">Add_newAdd</Element>
+    <Element key="AddressType" type="id">Add_type</Element>
+    <Element key="PostalCode" type="id">PostalCode</Element>
+    <Element key="AddressTB" type="id">txtAddress1</Element>
+    <Element key="City" type="id">City</Element>
+    <Element key="AddBTN" type="id">btnAdd</Element>
+    <Element key="ContinueBTN" type="id">btn_Continue</Element>
+    <Element key="DivDeclaration" type="id">divDeclaration</Element>
+    <Element key="CountryDeclaration" type="id">countryDeclaration</Element>
+    <Element key="ConfirmDeclarationBTN" type="id">btnConfirmDeclaration</Element>
+    <Element key="ProceedBTN" type="id">proceed</Element>
+    <Element key="CreditCardSubmitBTN" type="id">CreditCardSubmitButton</Element>
+    <Element key="GoToHomePageBTN" type="id">btnGoToHomePage</Element>
+    <Element key="PlayBTN" type="id">playBtn</Element>
+    <Element key="LogOutLink" type="id">logout</Element>
+    <Element key="PremiumVideoBTN" type="ClassName">premium_video_btn</Element>
+    <Element key="BuyVideoDialogue" type="id">buyVideoPrompt</Element>
+  </Module>
+
+  <Module name ="Chrome_CMS">
+    <Element key="HelpDestopButton" type="id">help-services-btn-desktop-help</Element>
+    <!--This key represents HelpDestopButton-->
+    <Element key="BtnServiceCSS" type="CssSelector">li#help-services-btn-desktop-help > a > i</Element>
+    <!-- This key is created for AcceptButtonCss -->
+    <Element key="HelpHeadingName" type="CssSelector">div.help-container > div > h5</Element>
+    <!-- This key is created for HelpHeadingName -->
+    <Element key="ItemContainer" type="CssSelector">div#helpItemsContianer</Element>
+    <!-- This key is created for ItemContainer -->
+    <Element key="PageName" type="id">PageName</Element>
+    <!--This key represents PageName-->
+    <Element key="AccountTypeHeading" type="CssSelector">div.service-container > div > h5</Element>
+    <!-- This key is created for AccountTypeHeading -->
+    <Element key="AccountItems" type="CssSelector">div#helpAccountItemsContainer</Element>
+    <!-- This key is created for AccountItems -->
+    <Element key="DivTitle" type="id">titleDiv</Element>
+    <!--This key represents DivTitle-->
+    <Element key="InstitutionTitle" type="CssSelector">span#contentDiv > p > strong</Element>
+    <!-- This key is created for InstitutionTitle -->
+    <Element key="InstitutionDesc" type="CssSelector">span#contentDiv > p</Element>
+    <!-- This key is created for InstitutionTitle1 -->
+    <Element key="InstitutionTitle2" type="CssSelector">div#titleDiv > p</Element>
+    <!-- This key is created for InstitutionTitle2 -->
+    <Element key="DivTitle1" type="CssSelector">div#titleDiv > p > em</Element>
+    <!-- This key is created for DivTitle1 -->
+    <Element key="InstitutionImage" type="CssSelector">a#imageContainerAnchor1 > img</Element>
+    <!-- This key is created for InstitutionImage -->
+    <Element key="ImageUrl" type="id">imageContainerAnchor1</Element>
+    <!--This key represents ImageUrl-->
+    <Element key="ImageIcon" type="id">imageIcon1</Element>
+    <!--This key represents ImageIcon-->
+    <Element key="ImageUrl2" type="id">imageContainerAnchor2</Element>
+    <!--This key represents ImageUrl2-->
+    <Element key="ImageIcon2" type="id">imageIcon2</Element>
+    <!--This key represents ImageIcon2-->
+    <Element key="VideoPlayer1" type="id">videoPlayer1</Element>
+    <!--This key represents VideoPlayer1-->
+    <Element key="VideoPlayer2" type="id">videoPlayer2</Element>
+    <!--This key represents VideoPlayer2-->
+    <Element key="ServiceDD" type="id">divServices-dropdown</Element>
+    <!--This key represents Service Drop Down-->
+    <Element key="ExpectedNoOfLinks" type="CssSelector">li#divServices-dropdown > ul > li</Element>
+    <!-- This key is created for ExpectedNoOfLinks -->
+    <Element key="DivContent" type="id">contentDiv</Element>
+    <!--This key represents DivContent-->
+    <Element key="InstitutionHelp" type="CssSelector">div.col-md-4</Element>
+  </Module>
+
+  <Module name="SeriesManagement">
+    <Element key="EmergencyDiv" type="Id">div_emergency</Element>
+    <Element key="SeriesLogo" type="Id">serieslogo</Element>
+    <Element key="SearchTB" type="Id">searchtextbox</Element>
+    <Element key="OverlayWait" type="ClassName">overlay</Element>
+    <Element key="Sponserdiv" type="ClassName">sponserdiv</Element>
+    <Element key="SearchedWord" type="ClassName">searchword_highlight</Element>
+    <Element key="Video" type="ClassName">series-name</Element>
+    <Element key="SeriesName" type="ClassName">series-name</Element>
+    <Element key="EmergencyPopup" type="CssSelector">div#div_emergency > div > div.modal-content > div.modal-footer > div > button.btn.btn1.btn-success.ok_btn_size</Element>
+    <Element key ="NewEmergencyPopup" type="CssSelector">div#div_emergency > div.modal-dialog > div.modal-content > div.modal-footer > div > button.btn.btn1.btn-success.ok_btn_size</Element>
+    <Element key="ImageLinkUrl" type="CssSelector">div.sponserdiv > a > img</Element>
+    <Element key="SponsorRedirectUrl" type="CssSelector">div.sponserdiv > a</Element>
+    <Element key ="Promotionaldiv" type ="Id">div_Promotional</Element>
+    <Element key ="PromotionalPopup" type ="CssSelector">div#div_Promotional div .modal-header button</Element>
+    <Element key="SearchResult" type="id">SearchResult</Element>
+    <Element key="SearchResultRecord" type="ClassName">searchresultrecord</Element>
+    <Element key="SearchResultDetails" type="CssSelector">div.video-description-clear-both > span > a</Element>
+    <Element key="SearchResultLink" type="CssSelector">div#SearchResult > div.search_result_videos > div.video-description-clear-both span.searchword_highlight</Element>
+  </Module>
+
+  <Module name="VideoRequestByUser">
+    <Element key="NewRequestButton" type="Id">btnNewRequest</Element>
+    <Element key="UserNameTB" type="Id">usernameText</Element>
+    <Element key="UserName" type="Id">UserName</Element>
+    <Element key="Password" type="Id">Password</Element>
+    <Element key="Login" type="Id">login</Element>
+    <Element key="MyIETDropDown" type="id">accountLi</Element>
+    <Element key="YesButton" type="Id">yesButtonId</Element>
+    <Element key="VidTitle" type="Id">txtVideoTitle</Element>
+    <Element key="ShortDescTB" type="Id">txtShortDescription</Element>
+    <Element key="ContactNoTB" type="Id">txtContactNo</Element>
+    <Element key="Abstract" type="Id">txtAbstract</Element>
+    <Element key="DefaultChannelDDL" type="Id">ddlDefaultChannel</Element>
+    <Element key="SaveBTN" type="Id">btnSave</Element>
+    <Element key="Overlay" type="Id">overlayId</Element>
+    <Element key="EventNameTXT" type="Id">txtEventName</Element>
+    <Element key="LocNameTXT" type="Id">txtLocationName</Element>
+    <Element key="VenueTxt" type="Id">txtVenue</Element>
+    <Element key="EventDateTXT" type="Id">txtEventDate</Element>
+    <Element key="BannerMessageOkButton" type="id">okButtonId</Element>
+    <!--This key represents 'BannerMessageOkButton' -->
+    <Element key="LoginLink" type="LinkText">Please Log in</Element>
+    <!--This key represents Login Link  -->
+    <Element key="VideoRequest" type="LinkText">Video Request</Element>
+    <!--This key represents Video Request Link  -->
+    <Element key="LoginWelcomeMessage" type="Id">loginWelcomeMessage</Element>
+    <Element key="LoginWelcomeMessageOkButton" type="CssSelector">div#loginWelcomeMessage > div > div.modal-content > div.modal-footer > div > button.btn</Element>
+  </Module>
+
+  <Module name="ReportAbuse">
+    <Element key="CreateCategory" type="Id">createCategory</Element>
+    <Element key="ServiceList" type="Id">ServiceList</Element>
+    <Element key="SearchTypeDDL" type="Id">ContentPlaceHolder1_ddlSelectTypeSearch</Element>
+    <Element key="VideoListingSearch" type="Id">ContentPlaceHolder1_grdVideoListingSearch</Element>
+    <Element key="VideoListingSearchSelect" type="Id">ContentPlaceHolder1_grdVideoListingSearch_btnSelect_</Element>
+    <Element key="SearchBTN" type="Id">ContentPlaceHolder1_btnSearch</Element>
+    <Element key="CheckBox" type="Id">ContentPlaceHolder1_CheckBox3</Element>
+    <Element key="HideBTN" type="Id">ContentPlaceHolder1_RepterDetails_BtnHide_0</Element>
+    <Element key="SaveBTN" type="Id">ContentPlaceHolder1_btnsave1</Element>
+    <Element key="OkBTN" type="Id">btnOk</Element>
+    <Element key="SuccessMsg" type="id">Sucess_Message</Element>
+    <!--This key represents 'SuccessMsg'  -->
+    <Element key="SearchTXT" type="Id">ContentPlaceHolder1_txtSearch</Element>
+    <Element key="SearchBTN" type="Id">ContentPlaceHolder1_btnSearch</Element>
+    <Element key="CommentDetails" type="Id">ContentPlaceHolder1_CommentDetails</Element>
+    <Element key="Comment" type="Id">comment</Element>
+    <Element key="SubmitComment" type="Id">commentsubmit</Element>
+    <Element key="CommentsManagementLink" type="LinkText">Comments Management</Element>
+    <Element key="InfoMessageButton" type="CssSelector">div.infomsg  > button#InfoMessageId</Element>
+    <Element key="DivH2" type="CssSelector">div.content_New > div  > div.row > h2</Element>
+    <Element key="DivClearFix" type="CssSelector">div.clearfix</Element>
+    <Element key="DivVidComments" type="CssSelector">div.video-comments > div > div > p</Element>
+    <Element key="SpanVidComments" type="CssSelector">div.video-comments > div > div > a > span</Element>
+    <Element key="DivHeading" type="CssSelector">div > span.content-heading</Element>
+    <Element key="DivParagraph" type="CssSelector">div > p</Element>
+    <Element key="DivWhitSpace" type="CssSelector">div > span.white-space</Element>
+    <Element key="VideoComments" type="ClassName">video-comments</Element>
+    <Element key="CommentsHeading" type="ClassName">comment-heading</Element>
+    <Element key="PopupMessage" type="CssSelector">div.modal-content > div.modal-footer > div > button.btn.btn1.btn-success.ok_btn_size</Element>
+    <!-- This key represents 'OK' button on Popup Window -->
+  </Module>
+
+  <Module name="VideoManagement">
+    <Element key="CreateCategory" type="Id">createCategory</Element>
+    <Element key="LoginWelcomeMsg" type="Id">loginWelcomeMessage</Element>
+    <Element key="BackgroundImg" type="Id">backgroundImage</Element>
+    <Element key="CountDown" type="Id">countDown</Element>
+    <!--<Element key="VideoLikeBTN" type="Id">btnVideoLike</Element>
+    <Element key="VideoDisLikeBTN" type="Id">btnVideoDisLike</Element>-->
+    
+    <Element key="VideoLikeBTN" type="CssSelector">div#like-dislike-btn button#btnVideoLike</Element>
+    <Element key="VideoDisLikeBTN" type="CssSelector">div#like-dislike-btn button#btnVideoDisLike</Element>
+    
+    <Element key="ImgLinkURL" type="Id">desktop-cpd-logo</Element>
+    <!--<Element key="LikeValue" type="Id">likevalue</Element>
+    <Element key="DislikeValue" type="Id">dislikevalue</Element>-->
+
+    <Element key="LikeValue" type="CssSelector">div#like-dislike-btn span#likevalue</Element>
+    <Element key="DislikeValue" type="CssSelector">div#like-dislike-btn span#dislikevalue</Element>
+    
+    <Element key="SearchBTN" type="Id">Search_button</Element>
+    <Element key="VideoDesc" type="Id">videoDescription</Element>
+    <Element key="Keywordid_0" type="Id">keywordid_0</Element>
+    <Element key="DownloadAttachment" type="Id">DownloadAttachment</Element>
+    <Element key="LockBtn" type="Id">lockBtn</Element>
+    <Element key="VideoDate" type="Id">VideoDate</Element>
+    <Element key="WelcomeMsgCSS" type="CssSelector">div#loginWelcomeMessage > div > div.modal-content > div.modal-footer > div > button.btn.btn1.btn-success.ok_btn_size</Element>
+    <Element key="VidNameCSS" type="CssSelector">h1.title_video > span > strong</Element>
+    <Element key="ChannelNameCSS" type="CssSelector">div#videoChannel > div > a > span</Element>
+    <Element key="SubscriptionVidCSS" type="CssSelector">div#premium_video_text > div</Element>
+    <Element key="Subscriptionbtn" type="CssSelector">div#premium_video_text >div > .premium_video_btn</Element>
+    <Element key="PremiumVidCSS" type="CssSelector">div#premium_video_text > div > button.premium_video_btn</Element>
+    <Element key="QnADisplayed" type="ClassName">QnA-Poll-container</Element>
+    <Element key="UserBlock" type="ClassName">user-block</Element>
+    <Element key="SpeakerList" type="ClassName">fa-angle-right</Element>
+    <Element key="Next" type="ClassName">next</Element>
+    <Element key="SearchDorpdown" type="Id">searchDorpdown</Element>
+    <Element key="SpeakerItem" type="ClassName">item</Element>
+    <Element key="SpeakerFnameInfo" type="CssSelector">div.spkr-info > div.spkr-carousel > span.spkr-fname.word-wrap</Element>
+    <Element key="SpeakerLnameInfo" type="CssSelector">div.spkr-info > div.spkr-carousel > span.spkr-lname.word-wrap</Element>
+    <Element key="SpkrCarousel" type="ClassName">spkr-carousel</Element>
+    <Element key="LikeDislikeDiv" type="Id">like-dislike-btn</Element>
+    <Element key="Likebtn" type="Id">btnVideoLike</Element>
+
+  </Module>
+
+
+  <Module name="PollManagement">
+    <Element key="PollTotalResponses" type="Id">poll_total_responses</Element>
+    <Element key="LblAnswer" type="Id">poll_option_</Element>
+    <Element key="PollResultBorder" type="Id">poll_result_border_</Element>
+    <Element key="QuestionDiv" type="Id">QuestionDiv</Element>
+    <Element key="PollQuestionText" type="Id">poll-question-text</Element>
+    <Element key="PollOption" type="Id">pollOption</Element>
+    <Element key="PollSubmitBTN" type="Id">btnPollSubmit</Element>
+    <Element key="ResultContainer" type="ClassName">poll-results-container</Element>
+    <Element key="VidDesc" type="ClassName">video-description-clear-both</Element>
+    <Element key="Warningmsg" type="ClassName">warningmsg</Element>
+    <Element key="PleaseWaitLoader" type="CssSelector">div > h3</Element>
+  </Module>
+
+  <Module name="QnAManagement">
+    <Element key="ChatText" type="Id">txtMessage</Element>
+    <Element key="ReplyButton" type="Id">btn_reply</Element>
+    <Element key="ChatBoxPanel" type="Id">chatboxContainer</Element>
+    <Element key="AdminMessage" type="ClassName">chat-item-admin</Element>
+    <Element key="UserMessage" type="ClassName">chat-item-user</Element>
+    <Element key="ChatItemText" type="ClassName">chat-item-text</Element>
+    <Element key="QAPanel" type="ClassName">QnA-Poll-container</Element>
+  </Module>
+
+  <Module name="UserGeneratedContent">
+    <Element key="VideoContent" type="Id">UserGeneratedContent</Element>
+    <Element key="UserVideoTitle" type="Id">txtTitle</Element>
+    <Element key="UserVideoDesc" type="Id">txtDescription</Element>
+    <Element key="UserContact" type="Id">txtUserContact</Element>
+    <Element key="BrowseButton" type="Id">UploadBrowseButton</Element>
+    <Element key="UploadButton" type="Id">btnUpload</Element>
+    <Element key="StatusButton" type="Id">btnStatus</Element>
+    <Element key="VideoUpload" type="Id">UploadedVideo</Element>
+    <Element key="VideoBrowseButton" type="CssSelector">div.media_user_width > div > input</Element>
+    <Element key="StatusColumnData" type="CssSelector">td[class='hidden-sm hidden-xs']</Element>
+  </Module>
+
+  <Module name="EventManagement">
+    <Element key="EventLogo" type="Id">eventlogo</Element>
+    <Element key="Delegate" type="Id">delegate_name</Element>
+    <Element key="EventAccessCode" type="Id">event_access_code</Element>
+    <Element key="VidPlayBTN" type="Id">eventvideoplayBtn</Element>
+    <Element key="VideoScheduleTabs" type="Id">ulVideoScheduletabs</Element>
+    <Element key="VideoSchedule" type="ClassName">divVideoSchedule</Element>
+    <Element key="EventScheduleContainer" type="ClassName">event-schedule-item-container</Element>
+    <Element key="ItemDesc" type="ClassName">item-description</Element>
+    <Element key="EventTitle" type="ClassName">eventtitle</Element>
+    <Element key="PremiumVideoText" type="ClassName">premium_video_text</Element>
+    <Element key="ModalContent" type="ClassName">modal-content</Element>
+    <Element key="VidStatusSpan" type="ClassName">videoStatusSpan</Element>
+    <Element key="EventAccessCodeBTN" type="ClassName">btnEventAccessCode</Element>
+    <Element key="VideoStatus" type="ClassName">videoStatus</Element>
+    <Element key="EventWebsite" type="ClassName">eventwebsite</Element>
+    <Element key="SetReminder" type="CssSelector">a.SET_reminder</Element>
+    <Element key="confirmmsg" type="ClassName">confirmmsg</Element>
+    <Element key="eventLogin" type="Id">LoginButtonId</Element>
+    <Element key="EventModal" type="CssSelector">div#modal_EventaccessCode div.modal-content</Element>
+  </Module>
+
+  <Module name="AccountManagement">
+    <Element key="TermsConditiondiv" type="Id">PrintTAndC</Element>
+    <Element key="TandCAcceptBTN" type="Id">Accept</Element>
+    <Element key="MyIETTVLink" type="linktext">My IET TV</Element>
+    <Element key="SubscriptionContent" type="Id">viewContent</Element>
+    <Element key="SubscriptionTable" type="Id">SubscriptionTable</Element>
+  </Module>
+
+  <Module name="ExternalManagement">
+    <Element key="ExternalUsername" type="Id">ContentPlaceHolder1_txtEmailAddress</Element>
+    <Element key="ExternalPassword" type="Id">ContentPlaceHolder1_txtPassword</Element>
+    <Element key="ExternalLognBtn" type="Id">ContentPlaceHolder1_btnLogin</Element>
+  </Module>
+</properties>

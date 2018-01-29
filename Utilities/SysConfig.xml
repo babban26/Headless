@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Configuration>
+
+  <Project name="Global">
+
+    <Module name="Automation">
+      <UseSikuli>No</UseSikuli>
+      <UseAutoIt>yes</UseAutoIt>
+      <SetIE11Registry>yes</SetIE11Registry>
+    </Module>
+
+  </Project>
+
+  <Project name="WebPortal">
+
+    <Module name="IETRegistration">
+
+      <Suffix>25</Suffix>
+      <Firstname>Automation</Firstname>
+      <Lastname>LastName</Lastname>
+      <Day>19</Day>
+      <Month>11</Month>
+      <Year>1994</Year>
+      <Username>IETMemberRegistration</Username>
+      <Password>rave1234</Password>
+      <ConfirmPassword>rave1234</ConfirmPassword>
+      <Email>IETMEmberRegistrationMail</Email>
+      <ConfirmEmail>IETMEmberRegistrationMail</ConfirmEmail>
+
+    </Module>
+
+    <Module name="NonIETRegistration">
+      <UserName>kinley.kindom@water.com</UserName>
+      <Password>R@ve1234</Password>
+    </Module>
+
+
+    <Module name="Evidence">
+      <KeepEvidence>Yes</KeepEvidence>
+      <RecordEvidence>Yes</RecordEvidence>
+      <KeepScreenShots>Yes</KeepScreenShots>
+    </Module>
+
+  </Project>
+
+  <Project name="AdminPortal">
+
+    <Module name="CategoryManagement">
+
+      <Suffix>26</Suffix>
+      <CategoryName>AutoCategory</CategoryName>
+
+    </Module>
+
+
+    <Module name="ChannelManagement">
+
+      <Suffix>1</Suffix>
+      <ChannelName>AutoChannel</ChannelName>
+      <MemberChannelName>22 May Member</MemberChannelName>
+
+    </Module>
+
+    <Module name="VideoManagement">
+
+      <!--<VideoName>vida6f921bdd7b248159c0262dd2369b5fc</VideoName>
+      <VideoID>7310</VideoID>
+      <Guid>79ec8023-cf88-4557-9262-7a2add621dd4</Guid>
+      <CreatedDate>07-11-2015</CreatedDate>-->
+
+      <!--new added-->
+      <VideoName>vid82decaa4f6</VideoName>
+      <VideoID>9136</VideoID>
+      <Guid>8924f637-5780-4610-9adc-2ed909b60b27</Guid>
+      <CreatedDate>14-09-2016</CreatedDate>
+      <SpeakerName>Automation</SpeakerName>
+
+      <!-- <StreamID>0_yuc9jn9t</StreamID> -->
+
+      <!--<SpeakerName>Automationfdfdbad</SpeakerName>-->
+
+      <!-- <Location>Location1fd50fdb</Location>-->
+      <PromoVideoName>vid21542-ee78-424f-b576-aa393bc1bede</PromoVideoName>
+
+    </Module>
+
+    <Module name="Content_Management_System">
+
+      <selectImage> </selectImage>
+
+    </Module>
+
+
+  </Project>
+
+</Configuration>

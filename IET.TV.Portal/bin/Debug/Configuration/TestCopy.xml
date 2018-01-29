@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Configuration>
+  <Project name="Admin">
+    <Module name="Category Management">
+      <categoryname>Others</categoryname>s
+    </Module>
+    <Module name="Channel Management">
+      <channelname>IT</channelname>
+    </Module>
+    <Module name="ForgotPassword">
+      <password>k13rihPP</password>
+      <username>
+      </username>
+    </Module>
+    <Module name="Account Management">
+      <accountname>AutoAccount4897b3</accountname>
+      <UserEmailAddress>AutoAccount4897b3@yopmail.com</UserEmailAddress>
+      <IETAccountName>IETAutoAccountf05ea8</IETAccountName>
+      <Password>rDSJbUXn</Password>
+    </Module>
+    <Module name="External Management">
+      <accountname>AutoFName564590</accountname>
+      <UserEmailAddress>AutoFName564590@yopmail.com</UserEmailAddress>
+      <Password>cAEAC6A0</Password>
+      <VideoName>AutoExternal2ae02a</VideoName>
+    </Module>
+  <Module name="Video Management">
+      <videoAccessCode></videoAccessCode>
+      <eventTitle></eventTitle>
+      <SpeakerName></SpeakerName>
+      <SpeakerAccessCode></SpeakerAccessCode>
+    </Module>
+<Module name="Event Management">
+<EventRoom></EventRoom>
+</Module>
+  </Project>
+</Configuration>

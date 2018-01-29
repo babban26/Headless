@@ -1,0 +1,476 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Configuration>
+
+  <Project name="WebPortal">
+
+    <Module name="Yopmail">
+      <Element key="startURL" type="data">http://www.yopmail.com/en/</Element>
+    </Module>
+
+    <Module name="Login">
+      <Element key="startURL" type="data">http://192.168.2.74/iettvportal/</Element>
+    </Module>
+
+    <Module name="IndividualUser">
+      <Element key="IndividualUserName" type="data">kish710</Element>
+      <Element key="IndividualPassword" type="data">lichi710</Element>
+    </Module>
+
+    <Module name="InstitutionUser">
+      <Element key="instUserName" type="data">kinley.kindom@water.com</Element>
+      <Element key="instPassWord" type="data">R@ve1234</Element>
+    </Module>
+
+    <Module name="CorporateUser">
+      <Element key="corpUserName" type="data">babbanchandak26@gmail.com</Element>
+      <Element key="corpPassWord" type="data">123456</Element>
+    </Module>
+
+    <Module name="BuyVidedoLogin">
+      <Element key="startURLForBuyVideoAndChannel" type="data">http://dev-rave.theiet.org/IETWRD3WebPortalDev/?home</Element>
+    </Module>
+
+    <Module name="BuyChannel">
+      <Element key="PostalCode" type="data">SG12AY</Element>
+      <Element key="Country" type="data">India</Element>
+      <Element key="Address" type="data">Test Address 1</Element>
+      <Element key="City" type="data">TestCity</Element>
+      <Element key="ProductCodeForAll_BuyChannel" type="data">TVICHET0</Element>
+      <!--<Element key="CategoryName" type="data">Automation Test Category</Element>-->
+      <Element key="CategoryName" type="data">Communication</Element>
+      <Element key="CardNumber" type="data">4530910000012345</Element>
+      <Element key="CVNumber" type="data">111</Element>
+      <Element key="IssueNumber" type="data">1</Element>
+      <Element key="MonthStart" type="data">01</Element>
+      <Element key="YearStart" type="data">16</Element>
+      <Element key="MonthExpire" type="data">12</Element>
+      <Element key="YearExpire" type="data">26</Element>
+      <Element key="CountryForVATCal" type="data">India</Element>
+      <Element key="BillingAddressType" type="data">Home</Element>
+      <Element key="Email" type="data">Kishore.Punjabi@northgate-is.com</Element>
+      <Element key="HouseNumber" type="data">1234</Element>
+    </Module>
+
+  </Project>
+
+  <Project name="AdminPortal">
+    <Module name="DBConnection">
+      <Element key="ConnectionString" type="data">Data Source=RAV-DSK-395;Initial Catalog=IET_TV_SP4;uid=sa;password=R@ve1234</Element>
+    </Module>
+
+    <Module name="Login">
+      <Element key="startURL" type="data">192.168.2.74/iettvadmin</Element>
+      <Element key="userName" type="data">Babban.Chandak</Element>
+      <Element key="passWord" type="data">R@ve5555</Element>
+    </Module>
+
+    <Module name="Channel_Management">
+      <Element key="channelIcon" type="data">Desert.jpg</Element>
+      <Element key="backgroundImage" type="data">Tulips.jpg</Element>
+      <Element key="MemberChannelName" type="data">member255878e8e</Element>
+      <Element key="PaidChannelName" type="data">Communications</Element>
+
+    </Module>
+
+    <Module name="Series_Management">
+      <Element key="videoName" type="data">autovid5c48e3</Element> 
+      <Element key="eventName" type="data">autoEvn 0c4347</Element>
+      
+      <!--  <Element key="videoName" type="data">vid9c20a137e56a4bab86886fc18fd70cf2</Element> //autovid5c48e3
+      <Element key="eventName" type="data">Automation Test Event231561ytgfr</Element>
+      -->
+    </Module>
+
+    <Module name="Video_Management">
+      <Element key="CopyrightUpload" type="data">Copyright.txt</Element>
+      <Element key="AttachmentUpload" type="data">Attachment1.docx</Element>
+      <Element key="VideoUpload" type="data">barsandtone.flv</Element>
+      <Element key="image" type="data">Desert.jpg</Element>
+      <Element key="FtpVideoUpload" type="data">demovideo.flv</Element>
+      <Element key="WebImagesServerPath" type="data">//RAV-DSK-395/IET.TV-Website/SourceCode/IETTVPortal/Images/</Element>
+      <Element key="PromoDefaultImageName" type="data">ComingSoon.jpg</Element>
+      <Element key="CpdImagename" type="data">cpd.png</Element>
+      <Element key="PromoVideoImageName" type="data">promoVideo.png</Element>
+
+
+    </Module>
+
+    <Module name="Configuration_Management">
+
+      <Element key="imagesPath" type="data">//RAV-DSK-395/IET.TV-Website/SourceCode/IETTVAdmin/Images</Element>
+
+      <Element key="channelOffer" type="data">50.00</Element>
+
+      <Element key="memberShipOffer" type="data">30.00</Element>
+
+      <Element key="userSessionTimeoutMinutes" type="data">20</Element>
+
+      <Element key="fromEmailId" type="data">mazher.hassan@northgate-is.com</Element>
+
+      <Element key="mailRegards" type="data">Regards(IET.tv Configuration Management Testing),Babban Chandak</Element>
+
+      <Element key="adminCopyright" type="data">Testing</Element>
+
+      <Element key="defaultPlayerID" type="data">11174503</Element>
+
+      <Element key="autoDefaultImage" type="data">Autologo.png</Element>
+
+      <Element key="autoDefaultchannelImage" type="data">AutoDefaultChannel.png</Element>
+
+      <Element key="autoSpeakerIconDefaultImage" type="data">AutoDefaultSpeaker.png</Element>
+
+      <Element key="autoServiceIconDefaultImage" type="data">AutoDefaultService.png</Element>
+
+      <Element key="adminNotificationValueInDays" type="data">2</Element>
+
+      <Element key="accountRenewalNotificationFrequency" type="data">5</Element>
+
+      <Element key="notificationValueInDays" type="data">3</Element>
+
+      <Element key="notificationFrequencyInDays" type="data">2</Element>
+
+      <Element key="welcomeMessage" type="data">Welcome to the IET TV world.</Element>
+
+      <Element key="toEmailid" type="data">ujjwal.dobhal@northgate-is.com;amit.desai@northgate-is.com</Element>
+
+      <Element key="notificationDetailsPath" type="data">C:\IET\InternalBuild\Sprint4\IETTV_NetbanxTest\IETTVService\EmailNotification\NotificationDetails.html</Element>
+
+      <Element key="replacementTextForHiddenComment" type="data">Comment has been removed by IET Administrator(User: Babban Chandak)</Element>
+
+      <Element key="buyChannelsText" type="data">To make a purchase, select your preferred channel(s) from the list below and use the instructions that follow to make payment.</Element>
+
+      <Element key="autoSeriesIconDefaultImage" type="data">AutoDefaultSeries.png</Element>
+
+      <Element key="adminToEmailId" type="data">ujjwal.dobhal@northgate-is.com</Element>
+
+
+      <Element key="defaultImage" type="data">logo.png</Element>
+      <Element key="defaultChannelImage" type="data">ChannelDefault.png</Element>
+      <Element key="defaultSpeakerIconImage" type="data">SpeakerDefault.png</Element>
+      <Element key="defaultServiceIconImage" type="data">ServiceDefault.png</Element>
+      <Element key="defaultSeriesIconDefaultImage" type="data">SeriesDefault.png</Element>
+
+    </Module>
+
+    <Module name="IndividualChannelPricing">
+      <Element key="membershipUrl" type="data">http://192.168.2.74/IETTVPortal/view/LoginNew.html</Element>
+    </Module>
+
+    <Module name="Regional_Access">
+
+      <Element key="countryName" type="data">
+        Select#
+        Afghanistan#
+        Albania#
+        Algeria#
+        American Samoa#
+        Andorra#
+        Angola#
+        Anguilla#
+        Antarctica#
+        Antigua and Barbuda#
+        Argentina#
+        Armenia#
+        Aruba#
+        Australia#
+        Austria#
+        Azerbaijan#
+        Bahamas#
+        Bangladesh#
+        Barbados#
+        Belarus#
+        Belgium#
+        Belize#
+        Benin#
+        Bermuda#
+        Bhutan#
+        Bolivia#
+        Bosnia and Herzegovina#
+        Botswana#
+        Bouvet Island#
+        Brazil#
+        British Indian Ocean Territory#
+        British Virgin Island#
+        Brunei#
+        Bulgaria#
+        Burkina Faso#
+        Burundi#
+        Cambodia#
+        Cameroon#
+        Canada#
+        Canton and Enderbury Islands#
+        Cape Verde#
+        Cayman Islands#
+        Central African Republic#
+        Chad#
+        Channel Islands#
+        Chile#
+        China#
+        Christmas Island#
+        Cocos Islands#
+        Colombia#
+        Comoros#
+        Congo#
+        Congo, The Democratic Republic#
+        Cook Islands#
+        Costa Rica#
+        Croatia#
+        Cuba#
+        Cyprus#
+        Czech Republic#
+        Dem People's Rep of Korea#
+        Denmark#
+        Djibouti#
+        Dominica#
+        Dominican Republic#
+        East Timor#
+        Ecuador#
+        Egypt#
+        El Salvador#
+        Equatorial Guinea#
+        Eritrea#
+        Estonia#
+        Ethiopia#
+        Falkland Islands#
+        Faroe Islands#
+        Fiji#
+        Finland#
+        France#
+        French Guyana#
+        French Polynesia#
+        French Southern Territories#
+        Gabon#
+        Gambia#
+        Georgia#
+        Germany#
+        Ghana#
+        Gibraltar#
+        Greece#
+        Greenland#
+        Grenada#
+        Guadeloupe#
+        Guam#
+        Guatemala#
+        Guinea#
+        Guinea-Bissau#
+        Guyana#
+        Haiti#
+        Heard and McDonald Islands#
+        Honduras#
+        Hong Kong#
+        Hungary#
+        Iceland#
+        India#
+        Indonesia#
+        Iran#
+        Iraq#
+        Ireland#
+        Isle Of Man#
+        Israel#
+        Italy#
+        Ivory Coast#
+        Jamaica, West Indies#
+        Japan#
+        Johnston Island#
+        Jordan#
+        Kazakstan#
+        Kenya#
+        Kingdom of Bahrain.#
+        Kiribati#
+        Kuwait#
+        Kyrgyztan#
+        Lao People's Dem Rep#
+        Latvia#
+        Lebanon#
+        Lesotho#
+        Liberia#
+        Libyan Arab Jermahimiya#
+        Liechtenstein#
+        Lithuania#
+        Luxembourg#
+        Macau#
+        Macedonia#
+        Madagascar#
+        Malawi#
+        Malaysia#
+        Maldives#
+        Mali#
+        Malta#
+        Marshall Islands#
+        Martinique#
+        Mauretania#
+        Mauritius#
+        Mayotte#
+        Mexico#
+        Micronesia#
+        Midway Islands#
+        Moldova#
+        Monaco#
+        Mongolia#
+        Montserrat#
+        Morocco#
+        Mozambique#
+        Myanmar#
+        Namibia#
+        Nauru#
+        Nepal#
+        Netherlands#
+        Netherlands Antilles#
+        New Caledonia#
+        New Zealand#
+        Nicaragua#
+        Niger#
+        Nigeria#
+        Niue#
+        Norfolk Island#
+        Northern Mariana Islands#
+        Norway#
+        Oman#
+        Pacific Islands#
+        Pakistan#
+        Palau#
+        Palestinian Territory#
+        Panama#
+        Papua New Guinea#
+        Paraguay#
+        Peru#
+        Philippines#
+        Pitcairn#
+        Poland#
+        Portugal#
+        Puerto Rico#
+        Qatar#
+        Reunion#
+        Romania#
+        Russia#
+        Rwanda#
+        Saint Kitts and Nevis#
+        Samoa#
+        San Marino#
+        Sao Tome and Principe#
+        Saudi Arabia#
+        Senegal#
+        Serbia &amp; Montenegro#
+        Seychelles#
+        Sierra Leone#
+        Singapore#
+        Slovakia#
+        Slovenia#
+        Solomon Islands#
+        Somalia#
+        South Africa#
+        South Korea#
+        Spain#
+        Sri Lanka#
+        St Helena#
+        St Lucia#
+        St Pierre and Miquelon#
+        St Vincent#
+        Sth Georgia &amp; Sth Sandwich Is#
+        Sudan#
+        Suriname#
+        Svalbard and Jan Mayen Islands#
+        Swaziland#
+        Sweden#
+        Switzerland#
+        Syrian Arab Republic#
+        Taiwan, Republic of China#
+        Tajikstan#
+        Tanzania#
+        Thailand#
+        Togo#
+        Tokelau#
+        Tonga#
+        Trinidad and Tobago#
+        Tunisia#
+        Turkey#
+        Turkmenistan#
+        Turks and Caicos Islands#
+        Tuvalu#
+        Uganda#
+        Ukraine#
+        United Arab Emirates#
+        United Kingdom#
+        United States#
+        Uruguay#
+        US Virgin Islands#
+        Uzbekistan#
+        Vanuatu#
+        Vatican City State#
+        Venezuela#
+        Vietnam#
+        Wake Islands#
+        Wallis and Futuna Islands#
+        Western Sahara#
+        Yemen#
+        Yugoslavia#
+        Zambia#
+        Zimbabwe
+      </Element>
+
+
+    </Module>
+
+    <Module name="Poll_Management">
+
+      <Element key="maximumOption" type="data">7</Element>
+      <Element key="userName1" type="data">babbanchandak26@gmail.com</Element>
+      <Element key="Password1" type="data">123456</Element>
+      <Element key="userName2" type="data">imautomation@yopmail.com</Element>
+      <Element key="Password2" type="data">R@ve1234</Element>
+
+
+    </Module>
+
+    <Module name="QAManagement">
+      <Element key="adminMessageForVideo" type="data">Hi here you can learn java</Element>
+      <Element key="userMessageForVideo" type="data">Hi can you explain this video ?</Element>
+      <Element key="adminMessageForEvent" type="data">Hi here you can learn java</Element>
+      <Element key="userMessageForEvent" type="data">Hi can you explain this Event ?</Element>
+    </Module>
+
+    <Module name="Event_Management">
+      <Element key="eventName" type="data">Event with live Video 31e1bef4-7558-4c98-b226</Element>
+      <Element key="EventDefaultLogo" type="data">Event.png</Element>
+      <Element key="EventURL" type="data">http://www.google.com</Element>
+    </Module>
+
+    <Module name="CMS">
+      <Element key="imageURL" type="data">http://www.theiet.org/</Element>
+      <Element key="altTextForImage" type="data">Alternate Text for Image</Element>
+      <Element key="titleContent" type="data">Title field Automation test</Element>
+      <Element key="descriptionContent" type="data">A portal introduces the reader to a subject by presenting imagesA portal introduces the reader to a subject by presenting imagesA portal introduces the reader to a subject by presenting images. testportal introduces the reader to a subject by presenting imagesA portal introduces the reader to a subject by presenting imagesA portal introduces the reader to a subject by presenting images. testportal introduces the reader to a subject by presenting imagesA portal introduces the reader to a subject by presenting imagesA portal introduces the reader to a subject by presenting images. testportal introduces the reader to a subject by presenting imagesA portal introduces the reader to a subject by presenting imagesA portal iportal introduces the reader to a subject by presenting portal introduces the reader to a subject by presenting imagesA portal introduces the reader to a subject by presenting imagesA portal introduces the reader to a subject by presenting images. testportal introduces the reader to a subject by presenting imagesA portal introduces the reader to a subject by presenting imagesA portal introduces the reader to a subject by presenting images. testimagesA portal introduces the reader to a subject by presenting imagesA portal introduces the reader to a subject by presenting images. testportal introduces the reader to a subject by presenting imagesA portal introduces the reader to a subject by presenting imagesA portal introduces the reader to a subject by presenting images. testportal introduces the reader to a subject by presenting imagesA portal introduces the reader to a subject by presenting imagesA portal introduces the reader to a subject by presenting images. testntroduces the reader to a subject by presenting images."</Element>
+      <Element key="videoCode" type="data">https://www.youtube.com/embed/mO1yy7M7X9w</Element>
+    </Module>
+
+    <Module name="Account Management">
+      <Element key="accountTypeDrd" type="data">Corporate</Element>
+      <Element key="SubscriptionType" type="data">Subscription</Element>
+    </Module>
+
+  </Project>
+
+  <Project name="DarwinCRM">
+
+    <Element key="startURL" type="data"></Element>
+    <Element key="userName" type="data"></Element>
+    <Element key="passWord" type="data"></Element>
+
+  </Project>
+
+  <Project name="ExternalPortal">
+    <Module name="ExternalPortalLink">
+      <Element key="startURL" type="data">http://192.168.2.74/IETTVExternaluser/login.aspx</Element>
+    </Module>
+  </Project>
+
+  <Project name="InternalPortal">
+    <Module name="InternalPortalLink">
+      <Element key="internalLink" type="data">http://192.168.1.25:8090/httpclient.html?u=http://www.gstatic.com/generate_204</Element>
+      
+      
+    </Module>
+  </Project>
+
+</Configuration>

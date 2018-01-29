@@ -1,0 +1,514 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--
+  
+  ################################## Please look at here #################################
+  
+  Instruction to Add New Content in XML File. 
+  
+  1. Use Camel Case format while writing Node name.
+  2. Use Camel Case Format while writing value of any attribute.
+  
+-->
+
+
+<properties>
+
+  <Module name="Header">
+    <Element key="TopHeader" type="Id">divNav</Element>
+    <!-- This key is created for Admin Portal static top header -->
+    <Element key="LogoHeader" type="ClassName">logo_div</Element>
+    <!-- This key is created for Admin Portal static logo header -->
+  </Module>
+
+  <Module name="ChannelManagement">
+    <Element key="AdminMenu" type="Id">rptMenu_aMenuItem_0</Element>
+    <!--This key is created for Admin Menu Dropdown-->
+    <Element key="ChannelManagement" type="LinkText">Channel Management</Element>
+    <!--This key is created for Channel Management Admin Menu Dropdown-->
+    <Element key="ChannelManagementLabel" type="CssSelector">div#viewContent > div > div > div.titleBox > h2</Element>
+    <!--This key is created for Channel Management Title Text -->
+    <Element key="ChannelCreateTab" type="Id">tabCreate</Element>
+    <!--This key is created for Create tab of channel managemnent-->
+    <Element key="ChannelName" type="Id">ContentPlaceHolder1_txtChannelName</Element>
+    <!--This key is created for ChannelName field-->
+    <Element key="ChannelCategory" type="Id">ContentPlaceHolder1_ddlChannelCategory</Element>
+    <!--This key is created for Channel Category field-->
+    <Element key="ChannelType" type="Id">ContentPlaceHolder1_ddlCategoryType</Element>
+    <!--This key is created for Channel type field-->
+    <Element key="ChannelPosition" type="Id">ContentPlaceHolder1_ddlChannelEditPosition</Element>
+    <!--This key is created for Channel Position field-->
+    <Element key="PricingType" type="Id">ContentPlaceHolder1_ddlChannelType</Element>
+    <!--This key is created for PricingType field-->
+    <Element key="BackgroundColour" type="Id">cp1</Element>
+    <!--This key is created for BackgroundColour field-->
+    <Element key="ColourCollection" type="CssSelector">table.evo-palette</Element>
+    <!--This key is created for getting Colour Collection -->
+    <Element key="ButtonColour" type="Id">cp3</Element>
+    <Element key="Player" type="Id">ContentPlaceHolder1_ddlPlayer</Element>
+    <!--This key is created for Player field-->
+    <Element key="WatermarkRequired" type="Id">ContentPlaceHolder1_ddlIsWaterMarkRequired</Element>
+    <!--This key is created for WatermarkRequired field-->
+    <Element key="ChannelIcon" type="Id">ContentPlaceHolder1_</Element>
+    <!--This key is created for ChannelIcon field-->
+    <Element key="ShowChannelIcon" type="Id">ContentPlaceHolder1_chkShowonportal</Element>
+    <!--This key is created for ShowChannelIcon field-->
+    <Element key="BackgroundImage" type="Id">ContentPlaceHolder1_fileBackgroundImage</Element>
+    <!--This key is created for BackgroundImage field-->
+    <Element key="Notes" type="Id">ContentPlaceHolder1_txtNotes</Element>
+    <!--This key is created for Notes field-->
+    <Element key="Savebutton" type="Id">ContentPlaceHolder1_btnSave</Element>
+    <!--This key is created for Savebutton field-->
+    <Element key="SuccessMessage" type="Id">Sucess_Message</Element>
+    <!--This key is created for SuccessMessage field-->
+    <Element key="OkButton" type="Id">btnOk</Element>
+    <!--This key is created for OkButton field-->
+    <Element key="TabChannel" type="Id">tabChannel</Element>
+
+  </Module>
+
+  <Module name="ProductCode">
+    <Element key="ProductCode" type="LinkText">Product Code</Element>
+    <!--This key is created for Product Code Admin Menu Dropdown-->
+    <Element key="ProductCodeLabel" type="CssSelector">div#viewContent > div > div > div.titleBox > h2</Element>
+    <!--This key is created for Channel Management Title Text -->
+    <Element key="ProductCodeCreateTab" type="Id">createProductCode</Element>
+    <!--This key is created for Create tab of ProductCode -->
+    <Element key="ProductCodeListTab" type="Id">ProductCodeList</Element>
+    <!--This key is created for List tab of ProductCode -->
+  </Module>
+
+  <Module name="CategoryManagement">
+    <Element key="AdminMenu" type="Id">rptMenu_aMenuItem_0</Element>
+    <Element key="CategoryManagementlink" type="LinkText">Category Management</Element>
+    <Element key="CategoryPage" type="CssSelector">div#viewContent > div > div > div.titleBox > h2</Element>
+    <Element key="CreateCategory" type="Id">createCategory</Element>
+    <Element key="CategoryListTab" type="Id">CategoryList</Element>
+    <Element key="CreateCategoryTab" type="Id">CreateCategoryTab</Element>
+    <Element key="CategoryName" type="Id">ContentPlaceHolder1_txtCategoryName</Element>
+    <Element key="CategoryPosition" type="Id">ContentPlaceHolder1_ddlPosition1</Element>
+    <Element key="SaveButton" type="Id">ContentPlaceHolder1_btnSaveChanges</Element>
+    <Element key="SuccessOkButton" type="Id">btnOk</Element>
+    <Element key="SucessMessage" type="Id">Sucess_Message</Element>
+    <Element key="CategoryList" type="Id">CategoryList</Element>
+    <Element key="CategoryListTable" type="Id">ContentPlaceHolder1_gvCategoryList</Element>
+    <Element key="CategoryListName" type="Id">ContentPlaceHolder1_gvCategoryList_lblName_</Element>
+    <Element key="CategoryListSelect" type="Id">ContentPlaceHolder1_gvCategoryList_chkSelect_</Element>
+    <Element key="CategoryListPosition" type="Id">ContentPlaceHolder1_gvCategoryList_ddlPosition_</Element>
+    <Element key="CategoryType" type="Id">ContentPlaceHolder1_gvCategoryList_lblType_</Element>
+    <Element key="Status" type="Id">ContentPlaceHolder1_gvCategoryList_lblStatus_</Element>
+    <Element key="EditButton" type="Id">ContentPlaceHolder1_gvCategoryList_imgEdit_</Element>
+    <Element key="DeleteButton" type="Id">ContentPlaceHolder1_gvCategoryList_ImgDelete_</Element>
+    <Element key="InfoOkButton" type="CssSelector">div.infomsg > button.btn-sm</Element>
+    <Element key="InfoMessage" type="Id">Info</Element>
+    <Element key="CategoryInline" type="Id">ContentPlaceHolder1_rfvTxtName</Element>
+    <Element key="InactiveButton" type="Id">ContentPlaceHolder1_btndeactive</Element>
+    <Element key="ActiveButton" type="Id">ContentPlaceHolder1_btnactive</Element>
+    <Element key="WarningYesButton" type="Id">btnYes</Element>
+    <Element key="WarningNoButton" type="Id">btnNo</Element>
+    <Element key="WarningMessage" type="Id">Default_Language</Element>
+    <Element key="CancelButton" type="Id">ContentPlaceHolder1_btnCancel</Element>
+    <Element key="EditImage" type="CssSelector">span > img</Element>
+    <Element key="RegularExpression" type="Id">ContentPlaceHolder1_RegularExpressionValidator1</Element>
+  </Module>
+
+  <Module name="SeriesManagement">
+    <Element key="SeriesManagementMenu" type="Id">ViewSeriesDtls</Element>
+    <Element key="LogoutLink" type="Id">logout</Element>
+    <Element key="MyIETDropDown" type="Id">accountLi</Element>
+    <!--This key represents 'MyIETDropDown' field on login page-->
+    <Element key="SeriesName" type="Id">ContentPlaceHolder1_txtSeriesName</Element>
+    <Element key="Description" type="Id">ContentPlaceHolder1_txtDescription</Element>
+    <Element key="SaveButton" type="Id">ContentPlaceHolder1_btnSaveVideoEvent</Element>
+    <Element key="SeriesIcon" type="Id">ContentPlaceHolder1_fileSeriesIcon</Element>
+    <Element key="SuccessOkButton" type="Id">btnOk</Element>
+    <Element key="SearchByDDL" type="Id">ContentPlaceHolder1_ddlSelectType</Element>
+    <Element key="SearchTextBox" type="Id">ContentPlaceHolder1_txtSearch</Element>
+    <Element key="SearchButton" type="Id">ContentPlaceHolder1_btnSearch</Element>
+    <Element key="CheckBox" type="Id">ContentPlaceHolder1_grdAddVideoEvent_chkAddRow_0</Element>
+    <Element key="AddButton" type="Id">ContentPlaceHolder1_btnAdd</Element>
+    <Element key="EventRadioButton" type="Id">ContentPlaceHolder1_rdobtnAction_1</Element>
+    <Element key="SponsorUploadButton" type="Id">ContentPlaceHolder1_btnImageUpload</Element>
+    <Element key="SponsorTextField" type="Id">ContentPlaceHolder1_txtDisplayImageName</Element>
+    <Element key="SucessMessage" type="Id">Sucess_Message</Element>
+    <Element key="GridDetails" type="Id">ContentPlaceHolder1_grdSeriesDetails</Element>
+    <Element key="GridImage" type="Id">ContentPlaceHolder1_grdSeriesDetails_imgEdit_0</Element>
+    <Element key="CreateSeriesTab" type="Id">CreateSeries</Element>
+    <Element key="DeleteFirstRowButton" type="Id">ContentPlaceHolder1_grdAddVideoEventDetails_imgDeleteAdded_0</Element>
+    <Element key="Search_Result" type="Id">SearchResult</Element>
+    <Element key="Series_Dtls" type="Id">SeriesDtls</Element>
+    <Element key="OverlayWait" type="ClassName">overlay</Element>
+    <Element key="SeriesManagementLink" type="LinkText">Series Management</Element>
+    <Element key="SponsorChooseButton" type="CssSelector">div#divUploadImage > div > input</Element>
+    <Element key="SearchResultRecord" type="CssSelector">div.searchresultrecord</Element>
+  </Module>
+
+  <Module name="VideoRequestByUser">
+    <Element key="AdminMenu" type="Id">rptMenu_aMenuItem_0</Element>
+    <!--This key is created for Admin Menu Dropdown-->
+    <Element key="SearchVideoTB" type="Id">ContentPlaceHolder1_txtSearchVideoTitle</Element>
+    <Element key="SearchButton" type="Id">ContentPlaceHolder1_btnSearchContent</Element>
+    <Element key="VideoBoookingList" type="Id">ContentPlaceHolder1_grdVideoBookingListing</Element>
+    <Element key="VideoTitle" type="Id">ContentPlaceHolder1_ucVideosBasicInformationID_txtBasicInfoTitle</Element>
+    <Element key="PopUpVideoTitle" type="Id">mlblVideoTitle</Element>
+    <Element key="PopUpEventName" type="Id">mlblEventName</Element>
+    <Element key="PopUpLocation" type="Id">mlblLocation</Element>
+    <Element key="PopUpVenue" type="Id">mlblVenue</Element>
+    <Element key="VideoBookingList" type="Id">myRequestTable</Element>
+    <Element key="CreateButton" type="Id">ContentPlaceHolder1_grdVideoBookingListing_btnCreateVideo_</Element>
+    <Element key="WarningYesButton" type="Id">btnYes</Element>
+    <Element key="BasicInfoTab" type="Id">basicinfotab</Element>
+    <Element key="GuAdminId" type="Id">ContentPlaceHolder1_ucVideosBasicInformationID_txtID</Element>
+    <Element key="VideoTypeDDL" type="Id">ContentPlaceHolder1_ucVideosBasicInformationID_ddlVideoType</Element>
+    <Element key="RejectButton" type="Id">ContentPlaceHolder1_grdVideoBookingListing_btnDeleteVideo_</Element>
+    <Element key="ModalContent" type="ClassName">modal-content</Element>
+    <Element key="ApproveBooking" type="LinkText">Approve Booking Requests</Element>
+    <Element key="CloseButton" type="CssSelector">div.modal-content > div.modal-footer > button.btn</Element>
+    <Element key="ColumnData" type="CssSelector">td[class='hidden-sm hidden-xs']</Element>
+    <Element key="VideoTypeDRD" type="CssSelector">div.video_subtitle#basicInfo div select#ContentPlaceHolder1_ucVideosBasicInformationID_ddlVideoType</Element>
+  </Module>
+
+  <Module name="BuyChannel">
+    <!--Individual channel pricing Module-->
+    <Element key="IndividualPricingLink" type="Id">rptMenu_liMenuItem_2</Element>
+    <Element key="TxtArchivePrice" type="Id">ContentPlaceHolder1_GridView1_txtArchivePrice_</Element>
+    <Element key="TxtFrontPrice" type="Id">ContentPlaceHolder1_GridView1_txtFrontPrice_</Element>
+    <Element key="TxtCombinePrice" type="Id">ContentPlaceHolder1_GridView1_txtCombinePrice_</Element>
+    <Element key="BtnSaveChanges" type="Id">ContentPlaceHolder1_btnSaveChanges</Element>
+    <!--Buy Channel module-->
+    <Element key="CP3" type="Id">cp3</Element>
+    <Element key="ChkShowOnPortal" type="Id">ContentPlaceHolder1_chkShowonportal</Element>
+    <Element key="BackgroundImage" type="Id">ContentPlaceHolder1_fileBackgroundImage</Element>
+    <Element key="ChannelAccessTypeRDO" type="Id">ContentPlaceHolder1_rdoChannelAccessType</Element>
+    <Element key="WaterMarkDDL" type="Id">ContentPlaceHolder1_ddlWatermark</Element>
+    <Element key="GridViewCheckRow" type="Id">ContentPlaceHolder1_GridView1_chkRow_</Element>
+    <Element key="ColorId" type="ClassName">evo-colorind</Element>
+    <Element key="CustomMessage" type="CssSelector">div.successmsg.custom_messages</Element>
+    <Element key="SpanCustomMessage" type="CssSelector">div.successmsg.custom_messages > span</Element>
+  </Module>
+
+  <Module name="VideoManagement">
+    <Element key="AddNewBTN" type="Id">ContentPlaceHolder1_btnAddNewRecord</Element>
+    <Element key="ShortDesc" type="Id">ContentPlaceHolder1_ucVideosBasicInformationID_txtShortDescription</Element>
+    <Element key="DefaultChannelDDL" type="Id">ContentPlaceHolder1_ucVideosBasicInformationID_ddlDefaultChannel</Element>
+    <Element key="PricingTab" type="Id">pricingtab</Element>
+    <Element key="PermissionTab" type="Id">permissiontab</Element>
+    <Element key="DisplayPolling" type="Id">ContentPlaceHolder1_ucAdvancedInformation_chkDisplayPolling</Element>
+    <Element key="DisplayQA" type="Id">ContentPlaceHolder1_ucAdvancedInformation_chkDisplayQAndA</Element>
+    <Element key="FreeRadioBTN" type="Id">ContentPlaceHolder1_ucVideosBasicInformationID_rdblPricingType_1</Element>
+    <Element key="SubscriptionRadioBTN" type="Id">ContentPlaceHolder1_ucVideosBasicInformationID_rdblPricingType_0</Element>
+    <Element key="PremiumRadioBTN" type="Id">ContentPlaceHolder1_ucVideosBasicInformationID_rdblPricingType_2</Element>
+    <Element key="EventPricedRadioBtn" type="Id">ContentPlaceHolder1_ucVideosBasicInformationID_rdblPricingType_3</Element>
+    <Element key="VideoPrice" type="Id">ContentPlaceHolder1_ucVideosBasicInformationID_txtPriceonupload</Element>
+    <Element key="PromoTab" type="Id">promotab</Element>
+    <Element key="ShowCountDown" type="Id">ContentPlaceHolder1_ucVideosBasicInformationID_chkIsShowCountdown</Element>
+    <Element key="CopyrightTab" type="Id">copyrighttab</Element>
+    <Element key="NotesField" type="Id">ContentPlaceHolder1_ucVideosBasicInformationID_txtCopyrightNotes</Element>
+    <Element key="CopyrightUpldBTN" type="Id">ContentPlaceHolder1_ucVideosBasicInformationID_btnAddCopyright</Element>
+    <Element key="KeyworrdsTabBTN" type="Id">keywordsLitab</Element>
+    <Element key="AttachementTab" type="Id">attachmenttab</Element>
+    <Element key="AttachementUpldBTN" type="Id">ContentPlaceHolder1_ucVideoAttachment_btnUpload</Element>
+    <Element key="SponsorTXT" type="Id">ContentPlaceHolder1_ucVideoAttachment_txtDisplayImageName</Element>
+    <Element key="SponsorUpldBTN" type="Id">ContentPlaceHolder1_ucVideoAttachment_btnImageUpload</Element>
+    <Element key="SpeakerTab" type="Id">tabSpeaker</Element>
+    <Element key="CreateSpeakerTab" type="Id">LabelSpeakerAdd</Element>
+    <Element key="SpeakerTitle" type="Id">ContentPlaceHolder1_ucSpeakerInfo_txtSpkrTitle</Element>
+    <Element key="SpeakerFirstName" type="Id">ContentPlaceHolder1_ucSpeakerInfo_txtSpkrFirstName</Element>
+    <Element key="SpeakerLastName" type="Id">ContentPlaceHolder1_ucSpeakerInfo_txtSpkrLastName</Element>
+    <Element key="SpeakerAddBTN" type="Id">ContentPlaceHolder1_ucSpeakerInfo_btnSpeakerSave</Element>
+    <Element key="UploadVidTab" type="Id">uploadVideoTab</Element>
+    <Element key="UploadVidBTN" type="Id">ContentPlaceHolder1_vuVideoUpload_btnUploadVideo</Element>
+    <Element key="VidPreviewBTN" type="Id">ContentPlaceHolder1_vuVideoUpload_lnkPreviewVideo</Element>
+    <Element key="PublishTab" type="Id">publishtab</Element>
+    <Element key="FinalPublishFromDate" type="Id">ContentPlaceHolder1_ucVideoPublish_txtFinalPublishFromDate</Element>
+    <Element key="FinalPublishFromTime" type="Id">ContentPlaceHolder1_ucVideoPublish_txtFinalPublishFromTime</Element>
+    <Element key="VidPublishRadioBTN" type="Id">ContentPlaceHolder1_ucVideoPublish_rdbVideoPublish</Element>
+    <Element key="PublishVidBTN" type="Id">ContentPlaceHolder1_btPublish</Element>
+    <Element key="FinalPublishExpDT" type="Id">ContentPlaceHolder1_ucVideoPublish_txtFinalPublishExpiryDate</Element>
+    <Element key="FinalPublishExpTime" type="Id">ContentPlaceHolder1_ucVideoPublish_txtFinalPublishExpiryTime</Element>
+    <Element key="RecordPublishFromDT" type="Id">ContentPlaceHolder1_ucVideoPublish_txtPublishRecordFromDate</Element>
+    <Element key="RecrodPublishFromTime" type="Id">ContentPlaceHolder1_ucVideoPublish_txtPublishRecordTime</Element>
+    <Element key="UploadFTPRadioBTN" type="Id">ContentPlaceHolder1_vuVideoUpload_rdobtnUploadVideoFTP</Element>
+    <Element key="HideRecordRadioBTN" type="Id">ContentPlaceHolder1_ucVideoPublish_chkHidRecord</Element>
+    <Element key="CountDownFromDate" type="Id">ContentPlaceHolder1_ucVideosBasicInformationID_txtFromDate</Element>
+    <Element key="CountDownFromTime" type="Id">ContentPlaceHolder1_ucVideosBasicInformationID_txtFromTime</Element>
+    <Element key="AdvanceTab" type="Id">advancedinfotab</Element>
+    <Element key="RadioLiveVid" type="Id">ContentPlaceHolder1_ucVideoPublish_rdbLivePublish</Element>
+    <Element key="VideoCreatedDT" type="Id">ContentPlaceHolder1_ucVideosBasicInformationID_txtVideoCreatedDate</Element>
+    <Element key="AttachmentUploadBTN" type="Id">copyrightAttachmentUploadButton</Element>
+    <Element key="CopyrightAuthorizedBy" type="Id">ContentPlaceHolder1_ucVideosBasicInformationID_ddlCopyrightAuthorizedBy</Element>
+    <Element key="ChooseFileBTN" type="Id">ContentPlaceHolder1_ucVideosBasicInformationID_btnCopyrightAuthorisationAttachment</Element>
+    <Element key="AuthorizationNotes" type="Id">ContentPlaceHolder1_ucVideosBasicInformationID_txtCopyrightAuthorizationNotes</Element>
+    <Element key="ChkAllowPublish" type="Id">ContentPlaceHolder1_ucVideosBasicInformationID_chkAllowPublish</Element>
+    <Element key="PromoRadioBTN" type="Id">ContentPlaceHolder1_ucVideosBasicInformationID_rdbPromoVideo</Element>
+    <Element key="PromotionalDD" type="Id">ContentPlaceHolder1_ucVideosBasicInformationID_ddlPromoVideo</Element>
+    <Element key="PromoImageBTN" type="Id">ContentPlaceHolder1_ucVideosBasicInformationID_rdbPromoImage</Element>
+    <Element key="UploadImageBTN" type="Id">ContentPlaceHolder1_ucVideosBasicInformationID_btnPromoImage</Element>
+    <Element key="DefaultImg" type="Id">ContentPlaceHolder1_ucVideosBasicInformationID_rdbPromoDefaultImage</Element>
+    <Element key="Loading" type="Id">loading</Element>
+    <Element key="UploadVidFTPTXT" type="Id">ContentPlaceHolder1_vuVideoUpload_txtUploadVideoFTP</Element>
+    <Element key="UploadVidNew" type="Id">ContentPlaceHolder1_vuVideoUpload_btnUploadVideoNew</Element>
+    <Element key="SuccessBTN" type="Id">btnSuccessOK</Element>
+    <Element key="ChkMyVid" type="Id">ContentPlaceHolder1_chkMyVideosRecent</Element>
+    <Element key="RecentVidListing" type="Id">ContentPlaceHolder1_grdVideoListingRecent</Element>
+    <Element key="EditBTN" type="Id">ContentPlaceHolder1_grdVideoListingRecent_imgEditRecent_</Element>
+    <Element key="VidNumberTXT" type="Id">ContentPlaceHolder1_ucVideosBasicInformationID_txtVideoNumber</Element>
+    <Element key="StreamGUId" type="Id">ContentPlaceHolder1_ucVideosBasicInformationID_lblStreamUKID</Element>
+    <Element key="DefaultSuccessLang" type="Id">Default_Success_Language</Element>
+    <Element key="CommentChkBox" type="Id">ContentPlaceHolder1_ucAdvancedInformation_chkShowComments</Element>
+    <Element key="LikeDislikeChkBox" type="Id">ContentPlaceHolder1_ucAdvancedInformation_chkShowrRating</Element>
+    <Element key="CPDLogo" type="Id">ContentPlaceHolder1_ucAdvancedInformation_chkAddCPDLogo</Element>
+    <Element key="FileChooseBTN" type="Id">ContentPlaceHolder1_ucAdvancedInformation_fileThumbnailIcon</Element>
+    <Element key="FileUpldBTN" type="Id">ContentPlaceHolder1_ucAdvancedInformation_btnUploadImage</Element>
+    <Element key="KeywordsText" type="CssSelector">div > span.tagBox-container > input.tagBox-input</Element>
+    <Element key="AddTagBTN" type="CssSelector">div > span.tagBox-container > a.tagBox-add-tag</Element>
+    <Element key="CopyrightUplBTNCSS" type="CssSelector">div#divPlCopyrightAttachmentUploadContainer > div > input</Element>
+    <Element key="CopyrightUplBTNCSS1" type="CssSelector">div#divPlCopyrightAuthorisationUploadContainer > div > input</Element>
+    <Element key="ChooseFileBTNCSS" type="CssSelector">div#divPlUploadContainer > div > input</Element>
+    <Element key="SponsorChooseBTNCSS" type="CssSelector">div#divUploadImage > div > input</Element>
+    <Element key="StatusCSS" type="CssSelector">div > span#ContentPlaceHolder1_vuVideoUpload_lblStatus</Element>
+    <Element key="CustomMsgCSS" type="CssSelector">div.successcustommsg.custom_messages</Element>
+    <Element key="VidManagementLink" type="LinkText">Video Management</Element>
+    <Element key="Abstract" type="ClassName">cke_wysiwyg_frame</Element>
+    <Element key="AccessCodeTab" type="Id">accesscodetab</Element>
+    <Element key="GenerateVideoAccessBtn" type="Id">ContentPlaceHolder1_ucVideosBasicInformationID_btnGenerate</Element>
+    <Element key ="VideoAccessField" type="Id">ContentPlaceHolder1_ucVideosBasicInformationID_txtVideoCode</Element>
+    <Element key ="EventCodeTab" type ="Id">eventtab</Element>
+    <Element key="EventSearchTitle" type="Id">ContentPlaceHolder1_ucEvent_txtRecordTitle</Element>
+    <Element key="EventSearchBtn" type="Id">ContentPlaceHolder1_ucEvent_btnSearch</Element>
+    <Element key="EventSelectBtn" type="Id">ContentPlaceHolder1_ucEvent_grdSearchEvent_btnSelct_0</Element>
+    <Element key="EventLocationDD" type="Id">ContentPlaceHolder1_ucEvent_ddlLocationList</Element>
+    <Element key ="EventVenueDD" type="Id">ContentPlaceHolder1_ucEvent_ddlVenueList</Element>
+    <Element key="EventRoomDD" type="Id">ContentPlaceHolder1_ucEvent_ddlRoomList</Element>
+    <Element key="EventToTime" type="Id">ContentPlaceHolder1_ucEvent_EventToTime</Element>
+    <Element key="RecentSpeakerListing" type="Id">ContentPlaceHolder1_ucSpeakerInfo_grdSpeakerSelected</Element>
+    <Element key="SpeakerEditBtn" type="Id">ContentPlaceHolder1_ucSpeakerInfo_grdSpeakerSelected_imgSpeakerEdit_</Element>
+    <Element key="SpeakerAccessCode" type="Id">ContentPlaceHolder1_ucSpeakerInfo_txtSpkrAccessCode</Element>
+  </Module>
+
+  <Module name="PollManagement">
+    <Element key="ChkActive" type="Id">ContentPlaceHolder1_chkIsActive</Element>
+    <Element key="ChkDisplayPolling" type="Id">ContentPlaceHolder1_ucAdvancedInformation_chkDisplayPolling</Element>
+    <Element key="ChkDisplayQA" type="Id">ContentPlaceHolder1_ucAdvancedInformation_chkDisplayQAndA</Element>
+    <Element key="QuestionTXT" type="Id">ContentPlaceHolder1_txtQuestion</Element>
+    <Element key="Answer1TXT" type="Id">ContentPlaceHolder1_txtAnswerOption1</Element>
+    <Element key="Answer2TXT" type="Id">ContentPlaceHolder1_txtAnswerOption2</Element>
+    <Element key="Costombitrate1" type="Id">costombitrate1</Element>
+    <Element key="Width1TXT" type="Id">ContentPlaceHolder1_ucVideoPublish_txtWidth1</Element>
+    <Element key="Height1TXT" type="Id">ContentPlaceHolder1_ucVideoPublish_txtHeight1</Element>
+    <Element key="SubmitLiveData" type="Id">ContentPlaceHolder1_ucVideoPublish_btnSubmitLiveData</Element>
+    <Element key="Radio0" type="Id">ContentPlaceHolder1_rdobtnAction_0</Element>
+    <Element key="DivSearch" type="Id">ContentPlaceHolder1_divSearch</Element>
+    <Element key="AddVidEventLink" type="Id">ContentPlaceHolder1_grdAddVideoEvent_lnkTitle_0</Element>
+    <Element key="PollTypeTXT" type="Id">ContentPlaceHolder1_lblPollTypeText</Element>
+    <Element key="DynamicAnsDiv" type="Id">ContentPlaceHolder1_dvDyamicAnswersDiv</Element>
+    <Element key="Savebutton" type="Id">ContentPlaceHolder1_btnSave</Element>
+    <Element key="VideoListSearch" type="Id">ContentPlaceHolder1_grdVideoListingSearch</Element>
+    <Element key="TitleSearchLnk" type="Id">ContentPlaceHolder1_grdVideoListingSearch_lnkTitleSearch_</Element>
+    <Element key="EditImgBTN" type="Id">ContentPlaceHolder1_grdVideoListingSearch_imgEdit_</Element>
+    <Element key="OkButtonId" type="Id">okButtonId</Element>
+    <Element key="EventQsEdit" type="Id">ContentPlaceHolder1_grdEventQuestions_imgEdit_</Element>
+    <Element key="StopSearchBTN" type="Id">ContentPlaceHolder1_grdEventQuestions_btnStartStop_</Element>
+    <Element key="PollManagementLink" type="LinkText">Poll Management</Element>
+    <Element key="AddFieldButton" type="ClassName">add_field_button</Element>
+    <Element key="TotalOptionRow" type="ClassName">row</Element>
+
+
+  </Module>
+
+
+  <Module name="QnAManagement">
+    <Element key="TxtChatBox" type="Id">chatboxContainer</Element>
+    <Element key="TxtMessage" type="Id">txtMessage</Element>
+    <Element key="SearchDropdown" type="Id">ContentPlaceHolder1_ddlSelectType</Element>
+    <Element key="SearchText" type="Id">ContentPlaceHolder1_txtSearch</Element>
+    <Element key="SearchButton" type="Id">ContentPlaceHolder1_btnSearch</Element>
+    <Element key="ReplyButton" type="Id">btnSubmitMessage</Element>
+    <Element key="EventRadioButton" type="Id">ContentPlaceHolder1_rdobtnAction_1</Element>
+    <Element key="VideoRadioButton" type="Id">ContentPlaceHolder1_rdobtnAction_0</Element>
+    <Element key="SearchResult" type="Id">ContentPlaceHolder1_divSearch</Element>
+    <Element key="SelectVidRadioBtn" type="Id">ContentPlaceHolder1_grdAddVideoEvent_radSelect_0</Element>
+    <Element key="SelectVideoPlcHolder" type="Id">ContentPlaceHolder1_btnSelect</Element>
+    <Element key="TitleName" type="Id">ContentPlaceHolder1_lblTitle</Element>
+    <Element key="StopStartButton" type="Id">btnchatAction</Element>
+    <Element key="SuccessMsgOkButton" type="Id">okButtonId</Element>
+    <Element key="VideoListSearch" type="Id">ContentPlaceHolder1_grdVideoListingSearch</Element>
+    <Element key="VideoListResult" type="Id">ContentPlaceHolder1_grdVideoListingSearch_lnkTitleSearch_</Element>
+    <Element key="VideoEditButton" type="Id">ContentPlaceHolder1_grdVideoListingSearch_imgEdit_</Element>
+    <Element key="QnAManagementLink" type="LinkText">Q&amp;A</Element>
+  </Module>
+
+  <Module name="UserGeneratedContent">
+    <Element key="RejectButton" type="Id">ContentPlaceHolder1_grdUserContentListing_btnDeleteVideo_</Element>
+    <Element key="VideoStatus" type="Id">ContentPlaceHolder1_grdUserContentListing</Element>
+    <Element key="CreateButton" type="Id">ContentPlaceHolder1_grdUserContentListing_btnCreateVideo_</Element>
+    <Element key="SponsorChooseBTNCSS" type="CssSelector">div#divUploadImage > div > input</Element>
+    <Element key="UserContentLink" type="LinkText">User Content Management</Element>
+  </Module>
+
+
+  <Module name="EventManagement">
+    <Element key="AddGridBTN" type="Id">ContentPlaceHolder1_btnAddGrid</Element>
+    <Element key="AddLocBTN" type="Id">ContentPlaceHolder1_btnAddLoc</Element>
+    <Element key="AddRoomBTN" type="Id">ContentPlaceHolder1_btnRoomAdd</Element>
+    <Element key="AddVenueBTN" type="Id">ContentPlaceHolder1_btnAddvenue</Element>
+    <Element key="EventSaveBTN" type="Id">ContentPlaceHolder1_btnEventSave</Element>
+    <Element key="PublishBTN" type="Id">ContentPlaceHolder1_btPublish</Element>
+    <Element key="SaveBTN" type="Id">ContentPlaceHolder1_btSave</Element>
+    <Element key="LocationSaveBTN" type="Id">ContentPlaceHolder1_btnlocationSave</Element>
+    <Element key="AddRoomPopupBTN" type="Id">ContentPlaceHolder1_Button6</Element>
+    <Element key="SendMailBTN" type="Id">ContentPlaceHolder1_btnSendMail</Element>
+    <Element key="DisplayQAChk" type="Id">ContentPlaceHolder1_chkDisplayQA</Element>
+    <Element key="IsShowCountDownChk" type="Id">ContentPlaceHolder1_chkIsShowCountdown</Element>
+    <Element key="SaveVenueBTN" type="Id">btnvenueSave</Element>
+    <Element key="LocCountryDDL" type="Id">ContentPlaceHolder1_ddlLocCountry</Element>
+    <Element key="AddLocationVid" type="Id">ContentPlaceHolder1_ddlLocationList</Element>
+    <Element key="LocListDDL" type="Id">ContentPlaceHolder1_ddlLoclist</Element>
+    <Element key="PromoVidDDL" type="Id">ContentPlaceHolder1_ddlPromoVideo</Element>
+    <Element key="RoomListDDL" type="Id">ContentPlaceHolder1_ddlRoomList</Element>
+    <Element key="SearchTypeDDL" type="Id">ContentPlaceHolder1_ddlSelectTypeSearch</Element>
+    <Element key="VideoListDDL" type="Id">ContentPlaceHolder1_ddlVenueList</Element>
+    <Element key="EventPriceFreeRdo" type="Id">ContentPlaceHolder1_rdEventPriceFree</Element>
+    <Element key="EventPricePaid" type="Id">ContentPlaceHolder1_rdEventPricePaid</Element>
+    <Element key="PromoDefaultImg" type="Id">ContentPlaceHolder1_rdbPromoDefaultImage</Element>
+    <Element key="PromoImg" type="Id">ContentPlaceHolder1_rdbPromoImage</Element>
+    <Element key="PromoVid" type="Id">ContentPlaceHolder1_rdbPromoVideo</Element>
+    <Element key="AddLocation" type="Id">addNewLocationModal</Element>
+    <Element key="AddRoom" type="Id">addNewRoomModal</Element>
+    <Element key="AddVenue" type="Id">addNewVenueModal</Element>
+    <Element key="ViewVideoModel" type="Id">vidoeViewModel</Element>
+    <Element key="EventPrice" type="Id">EPrice</Element>
+    <Element key="UploadTab" type="Id">Upload</Element>
+    <Element key="VideoTab" type="Id">videoTab</Element>
+    <Element key="CityTXT" type="Id">ContentPlaceHolder1_txtCity</Element>
+    <Element key="EventStartDT" type="Id">ContentPlaceHolder1_txtEventStartDate</Element>
+    <Element key="EventTXT" type="Id">ContentPlaceHolder1_txtEmail</Element>
+    <Element key="EmailNoteTXT" type="Id">ContentPlaceHolder1_txtEmailNotes</Element>
+    <Element key="AddGridBTN" type="Id">ContentPlaceHolder1_btnAddGrid</Element>
+    <Element key="AddRoomPopUp" type="Id">ContentPlaceHolder1_txtRoom</Element>
+
+
+    <Element key="EventCode" type="Id">ContentPlaceHolder1_txtEventCode</Element>
+    <Element key="EventFromDT" type="Id">ContentPlaceHolder1_EventFromDate</Element>
+    <Element key="EventTitleTXT" type="Id">ContentPlaceHolder1_txtTitle</Element>
+    <Element key="EventToDT" type="Id">ContentPlaceHolder1_EventToDate</Element>
+    <Element key="URLTxt" type="Id">ContentPlaceHolder1_txtURL</Element>
+    <Element key="FromDTCD" type="Id">ContentPlaceHolder1_txtFromDateCD</Element>
+    <Element key="EventFromTime" type="Id">ContentPlaceHolder1_EventFromTime</Element>
+    <Element key="FromTimeCD" type="Id">ContentPlaceHolder1_txtFromTimeCD</Element>
+    <Element key="AddLocationTXT" type="Id">ContentPlaceHolder1_txtLocation</Element>
+    <Element key="PriceTXT" type="Id">ContentPlaceHolder1_txtPrice</Element>
+    <Element key="SessionIDTXT" type="Id">ContentPlaceHolder1_txtSessionID</Element>
+    <Element key="SessionNameTXT" type="Id">ContentPlaceHolder1_txtSessionName</Element>
+    <Element key="EventToTime" type="Id">ContentPlaceHolder1_EventToTime</Element>
+    <Element key="VenueTXT" type="Id">ContentPlaceHolder1_txtVenue</Element>
+    <Element key="UploadIMGBTN" type="Id">UploadImageButton</Element>
+    <Element key="UploadPromImg" type="Id">ContentPlaceHolder1_flUpPromoImage</Element>
+    <Element key="SelectBTN" type="Id">ContentPlaceHolder1_grdVideoListingSearch_btnSelect_</Element>
+    <Element key="UplEventLogo" type="Id">ContentPlaceHolder1_uplEventLogo</Element>
+    <Element key="Li2" type="Id">Li2</Element>
+    <Element key="ChannellistTab" type="Id">channellisttab</Element>
+    <Element key="EventEdit" type="Id">ContentPlaceHolder1_selectedVideosGridView_imgEventEdit_0</Element>
+    <Element key="ImageEdit" type="Id">ContentPlaceHolder1_grdVideoListingSearch_imgEdit_0</Element>
+    <Element key="SponsorImgCSS" type="CssSelector">div#divUploadImage > a</Element>
+    <Element key="FrameClass" type="ClassName">cke_wysiwyg_frame</Element>
+    <Element key="EventManagementLink" type="LinkText">Event Management</Element>
+    <Element key="BasicInfoLink" type="LinkText">Basic Information</Element>
+    <Element key="EventAccessCodeLink" type="LinkText">Event Access Code</Element>
+    <Element key="EventVidLink" type="LinkText">Event Video and Timetable</Element>
+    <Element key="LocationsLink" type="LinkText">Locations</Element>
+    <Element key="PermissionsLink" type="LinkText">Permissions</Element>
+  </Module>
+
+  <Module name="CMS">
+    <Element key="CMSLink" type="LinkText">CMS</Element>
+    <Element key="Video" type="LinkText">Video</Element>
+
+    <Element key="ServicesUl" type="CssSelector">ul#ServiceUL > li > a</Element>
+    <Element key="VideoTab3" type="CssSelector">div#modal3 > div.modal-dialog > div.modal-content > div.modal-body > ul</Element>
+    <Element key="VideoTab4" type="CssSelector">div#modal4 > div.modal-dialog > div.modal-content > div.modal-body > ul</Element>
+
+    <Element key="Successmsg" type="ClassName">successmsg</Element>
+
+    <Element key="BtnSaveChanges" type="Id">btnSaveChanges</Element>
+    <Element key="ServicesDropdown" type="Id">divServices-dropdown</Element>
+    <Element key="PageName" type="Id">PageName</Element>
+    <Element key="TitleDiv" type="Id">titleDiv</Element>
+    <Element key="BtnPreview" type="Id">btnPreview</Element>
+    <Element key="BtnEditForTitle" type="Id">btnEditForTitle</Element>
+    <Element key="PopUpModal1" type="Id">modal1</Element>
+    <Element key="BtnEditForContent" type="Id">btnEditForContent</Element>
+    <Element key="PopUpModal2" type="Id">modal2</Element>
+    <Element key="ContentsFrame" type="Id">cke_2_contents</Element>
+    <Element key="BtnSaveEditor" type="Id">btnSaveEditor</Element>
+    <Element key="BtnEditForImage1" type="Id">btnEditForImage1</Element>
+    <Element key="PopUpModal3" type="Id">modal3</Element>
+    <Element key="SelectMedia1" type="Id">ContentPlaceHolder1_AjaxFileUpload1_Html5InputFile</Element>
+    <Element key="BtnMediaUpload1" type="Id">ContentPlaceHolder1_AjaxFileUpload1_UploadOrCancelButton</Element>
+    <Element key="TxtAltTextImage1" type="Id">txtAltTextImage1</Element>
+    <Element key="TxtLinkImage1" type="Id">txtLinkImage1</Element>
+    <Element key="BtnSaveImage1" type="Id">btnSaveImage1</Element>
+    <Element key="BtnEditForImage2" type="Id">btnEditForImage2</Element>
+    <Element key="PopUpModal4" type="Id">modal4</Element>
+    <Element key="SelectMedia2" type="Id">ContentPlaceHolder1_AjaxFileUpload2_Html5InputFile</Element>
+    <Element key="BtnMediaUpload2" type="Id">ContentPlaceHolder1_AjaxFileUpload2_UploadOrCancelButton</Element>
+    <Element key="TxtAltTextImage2" type="Id">txtAltTextImage2</Element>
+    <Element key="TxtLinkImage2" type="Id">txtLinkImage2</Element>
+    <Element key="BtnSaveImage2" type="Id">btnSaveImage2</Element>
+    <Element key="ContentDiv" type="Id">contentDiv</Element>
+    <Element key="EmbedCode1" type="Id">embedCode1</Element>
+    <Element key="VideoPlayer1" type="Id">videoPlayer1</Element>
+    <Element key="EmbedCode2" type="Id">embedCode2</Element>
+    <Element key="VideoPlayer2" type="Id">videoPlayer2</Element>
+    <Element key="BtnSaveHeading" type="Id">btnSaveHeading</Element>
+    <Element key="Sucess_Message" type="Id">Sucess_Message</Element>
+
+
+  </Module>
+
+  <Module name="AccountManagement">
+    <Element key="AccountCreateTab" type="Id">CreateTab</Element>
+    <Element key="AccountTypeDropdown" type="Id">ContentPlaceHolder1_ddlAcctType</Element>
+    <Element key="AccountName" type="Id">ContentPlaceHolder1_txtAccountName</Element>
+    <Element key="AccountFName" type="Id">ContentPlaceHolder1_txtContactName</Element>
+    <Element key="AccountLName" type="Id">ContentPlaceHolder1_txtContactLastName</Element>
+    <Element key="ContactEmail" type="Id">ContentPlaceHolder1_txtContactEmail</Element>
+    <Element key="IETAccountName" type="Id">ContentPlaceHolder1_txtAcctMgrNm</Element>
+    <Element key="IETAccountEmail" type="Id">ContentPlaceHolder1_txtAcctMgrEmail</Element>
+    <Element key="IPRangeRadionBtn" type="Id">ContentPlaceHolder1_rdbIpRange_2</Element>
+    <Element key="AccountSaveBtn" type="Id">ContentPlaceHolder1_btnSave</Element>
+    <Element key="AccountSearchtype" type="Id">ContentPlaceHolder1_ddlSearchAcctType</Element>
+    <Element key="SearchAccountName" type="Id">ContentPlaceHolder1_txtSearchAccountName</Element>
+    <Element key="AccountSearchBTN" type="Id">ContentPlaceHolder1_btnSearchAcct</Element>
+    <Element key="RecentAccountListing" type="Id">ContentPlaceHolder1_grdAccountList</Element>
+    <Element key="SubscriptionBtn" type="Id">ContentPlaceHolder1_grdAccountList_btnSubscription_0</Element>
+    <Element key="ChannelList" type="Id">ContentPlaceHolder1_lstChannelList</Element>
+    <Element key="SelectCatalogue" type="Id">ContentPlaceHolder1_lstCatalogueLst</Element>
+    <Element key="SelectSubscriptionType" type="Id">ContentPlaceHolder1_ddlSubscriptionTypeCreate</Element>
+    <Element key="SubscriptionAddBTN" type="Id">ContentPlaceHolder1_btn_AddContent</Element>
+    <Element key="SubscriptionSaveBtn" type="Id">ContentPlaceHolder1_btnSubmit</Element>
+    <Element key="grdSubscriptionDetails" type="Id">ContentPlaceHolder1_grdSubscriptionDetails</Element>
+    <Element key="AccessDetailsTab" type="Id">SubscriptionDetails</Element>
+  </Module>
+
+  <Module name="ExternalAccessManagement">
+    <Element key="ExternalAccessMenu" type="Id">rptMenu_aMenuItem_5</Element>
+    <ELement key="CreateAccessTab" type="Id">createaccessDtls</ELement>
+    <Element key="FirstNameField" type="Id">ContentPlaceHolder1_txtFirstName</Element>
+    <Element key="LastNameField" type="Id">ContentPlaceHolder1_txtLastName</Element>
+    <Element key="EmailAddressField" type="Id">ContentPlaceHolder1_txtEmailAddress</Element>
+    <Element key="PhoneNumberField" type="Id">ContentPlaceHolder1_txtPhoneNumber</Element>
+    <Element key="ExternalSaveBtn" type="Id">ContentPlaceHolder1_btnSave</Element>
+    <Element key="ExternalAccountSearch" type="Id">ContentPlaceHolder1_txtSearchTitle</Element>
+    <Element key="ExternalAccountSearchBtn" type="Id">ContentPlaceHolder1_btnSearchTitle</Element>
+    <Element key="RecentExternalAccessListing" type="Id">ContentPlaceHolder1_grdUserAccessDetails</Element>
+    <Element key="VideoSearch" type="Id">ContentPlaceHolder1_txtSearch</Element>
+    <Element key="VideoSearchbtn" type="Id">ContentPlaceHolder1_btnSearch</Element>
+    <Element key="RecentVideoSearch" type="Id">ContentPlaceHolder1_grdVideoListingSearch</Element>
+    <Element key="RecentVideoEdit" type="Id">ContentPlaceHolder1_grdVideoListingSearch_imgEdit_</Element>
+    <Element key="SaveVideobtn" type="Id">ContentPlaceHolder1_btSave</Element>
+    <Element key="ExternalPublishTab" type="Id">eauPublishTab</Element>
+  </Module>
+
+</properties>
+
+
