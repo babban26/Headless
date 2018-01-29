@@ -79,7 +79,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\babban\HeadlessTest\Utilities\Utilities.csproj">
+    <ProjectReference Include="..\Utilities\Utilities.csproj">
       <Project>{1c95ad0e-4232-4adc-adc0-a1c2050cf980}</Project>
       <Name>Utilities</Name>
     </ProjectReference>
