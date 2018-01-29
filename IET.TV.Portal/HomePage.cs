@@ -43,9 +43,11 @@ namespace IET.TV.Portal
 
             driver = new OpenQA.Selenium.PhantomJS.PhantomJSDriver();
 
+            iWait = new WebDriverWait(driver, TimeSpan.FromSeconds(60));
+
             st.Chrome_Setup(driver, log);
 
-            driver = new ChromeDriver(@"D:\All-Projects\Headless.Testing\IET.TV.Portal\bin\Debug\Driver\chromedriver.exe");
+       //     driver = new ChromeDriver(@"D:\All-Projects\Headless.Testing\IET.TV.Portal\bin\Debug\Driver\chromedriver.exe");
          //   driver.Manage().Window.Maximize();
          //   iWait = new OpenQA.Selenium.Support.UI.WebDriverWait(driver, TimeSpan.FromSeconds(60.00));
          //   driver.Navigate().GoToUrl("http://192.168.2.74/iettvportal/");

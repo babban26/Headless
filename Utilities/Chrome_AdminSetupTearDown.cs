@@ -164,14 +164,7 @@ namespace Utilities
 
                 if (driver != null)
                     Thread.Sleep(5000);
-                driver.Quit();
-
-                if (recordEvidence == "yes")
-                {
-                   // this.job.Stop();
-
-                   // this.job = null;
-                }
+                driver.Quit();               
 
                 log.Info("Test Completed" + " at line:" + new StackTrace(true).GetFrame(0).GetFileLineNumber());
 
@@ -187,25 +180,8 @@ namespace Utilities
               //  this.job.Stop();
 
                 Assert.AreEqual(true, false);
-            }
-
-            try
-            {
-                // This is to check if Sikuli setting is set to 'Yes' and then stop the launcher
-
-                if (globList.ElementAt(0).ToString().ToLower().Equals("yes"))
-                {
-                   // launcher.Stop();
-                }
-            }
-            catch (Exception e)
-            {
-                Process[] proc = Process.GetProcessesByName("javaw");
-
-                proc[0].Kill();
-
-                log.Info("Javaw process killed");
-            }
+            }           
+           
         }
 
         public void Chrome_SetUpTearDowm(IWebDriver driver, ILog log, Boolean headerpresent)
