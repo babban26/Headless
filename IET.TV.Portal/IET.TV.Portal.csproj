@@ -76,6 +76,7 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
+    <None Include="AdminPortal.config" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>

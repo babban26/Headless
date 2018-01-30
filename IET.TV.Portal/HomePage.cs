@@ -93,7 +93,8 @@ namespace IET.TV.Portal
         //This function search the required video and verify the same and navigate to video landing page
         public void searchVideoVerification(string videoname)
         {
-            log.Info("searchVideoVerification::::");
+            log.Info("search Video Verification Test started::::");
+            Console.WriteLine("search Video Verification Test started::::");
 
             Boolean flag = false;
 
@@ -147,11 +148,14 @@ namespace IET.TV.Portal
                 {
                     flag = true;
 
-                    log.Info("Web Video Title:" + webvideoTitle + " at line:" + new StackTrace(true).GetFrame(0).GetFileLineNumber());
-                    Console.WriteLine("Web Video Title:" + webvideoTitle + " at line:" + new StackTrace(true).GetFrame(0).GetFileLineNumber());
+                    log.Info("Expected Video Title:" + videoname + " at line:" + new StackTrace(true).GetFrame(0).GetFileLineNumber());
+                    log.Info("Actual Video Title::" + webvideoTitle + " at line:" + new StackTrace(true).GetFrame(0).GetFileLineNumber());
+                    Console.WriteLine("Expected Video Title:" + videoname + " at line:" + new StackTrace(true).GetFrame(0).GetFileLineNumber());
+                    Console.WriteLine("Actual Video Title:" + webvideoTitle + " at line:" + new StackTrace(true).GetFrame(0).GetFileLineNumber());
                     searchresultDetails.Click();
 
                     uf.isJqueryActive(driver);
+                    Assert.AreEqual(true, true);
 
                     break;
                 }
@@ -163,7 +167,7 @@ namespace IET.TV.Portal
 
 
         [Test]
-        public void PhantomTest()
+        public void HeadlessTest()
         {
            searchVideoVerification("VID77A8DC");
           
@@ -173,6 +177,7 @@ namespace IET.TV.Portal
         public void HeadlessNegativeTest()
         {
             searchVideoVerification("VID77A8DC");
+            Console.WriteLine("Forcefully failing the test...");
             Assert.Fail();
         }
 
