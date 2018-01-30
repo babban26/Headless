@@ -41,6 +41,8 @@ namespace IET.TV.Portal
         {
             log4net.Config.XmlConfigurator.Configure(new FileInfo(AppDomain.CurrentDomain.BaseDirectory + "WebPortal.config"));
 
+            uf.CreateOrReplaceVideoFolder();
+
             driver = new OpenQA.Selenium.PhantomJS.PhantomJSDriver();
 
             iWait = new WebDriverWait(driver, TimeSpan.FromSeconds(60));
